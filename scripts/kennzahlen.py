@@ -79,6 +79,8 @@ def registry():
     kr = csv("mastr_kreise.csv").set_index("Landkreis")
     add("kreis_nf_n", "Anlagen an Land in Betrieb, Kreis Nordfriesland (meiste Anlagen aller Kreise)", int(kr.loc["Nordfriesland", "anzahl"]), "Anlagen", st, MASTR, "Feld Landkreis")
     add("kreis_di_n", "Anlagen an Land in Betrieb, Kreis Dithmarschen (zweitmeiste Anlagen)", int(kr.loc["Dithmarschen", "anzahl"]), "Anlagen", st, MASTR, "Feld Landkreis")
+    top4 = bl.loc[["Niedersachsen", "Brandenburg", "Nordrhein-Westfalen", "Schleswig-Holstein"]]
+    add("top4_anteil_pct", "Anteil Niedersachsen, Brandenburg, NRW und Schleswig-Holstein an der Leistung an Land", top4.leistung_mw.sum() / bl.leistung_mw.sum() * 100, "%", st, MASTR, "eigene Berechnung", dec=0)
     sued = bl.loc[["Bayern", "Baden-Württemberg"]]
     add("sued_anteil_pct", "Anteil Bayern + Baden-Württemberg an der Leistung an Land", sued.leistung_mw.sum() / bl.leistung_mw.sum() * 100, "%", st, MASTR, "eigene Berechnung", dec=1)
 

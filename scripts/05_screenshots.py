@@ -8,7 +8,8 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
-URL = sys.argv[1] if len(sys.argv) > 1 else (ROOT / "index.html").as_uri()
+ARGS = [a for a in sys.argv[1:] if not a.startswith("--")]
+URL = ARGS[0] if ARGS else (ROOT / "index.html").as_uri()
 OUT = ROOT / "screenshots"
 OUT.mkdir(exist_ok=True)
 errors = []
@@ -56,6 +57,8 @@ def desktop(p, theme="light"):
     page.locator("#calc").screenshot(path=OUT / f"11-rechner-kernkraft{sfx}.png")
     scroll_to(page, "#fazit", "start", 1.0)
     page.screenshot(path=OUT / f"12-fazit{sfx}.png")
+    page.goto(URL.replace("index.html", "quellen.html") if URL.endswith("index.html") else URL.rstrip("/") + "/quellen.html"); time.sleep(1)
+    page.screenshot(path=OUT / f"13-quellentabelle{sfx}.png")
     b.close()
     return info
 

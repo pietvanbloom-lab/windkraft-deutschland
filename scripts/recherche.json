@@ -1211,6 +1211,18 @@
    "fundstelle": "S. 1: „Zuschuss in Höhe von 6,5 Milliarden Euro“",
    "anmerkung": "nach § 24c EnWG",
    "dec": 1
+  },
+  {
+   "id": "ageb_wind_erz",
+   "kennzahl": "Anteil Wind an der Bruttostromerzeugung 2025 (vor Photovoltaik 18,1 % und Erdgas 17,0 %)",
+   "wert": 26.3,
+   "einheit": "%",
+   "stichtag": "2025, Stand 18.06.2026",
+   "quelle": "AG Energiebilanzen, Bruttostromerzeugung in Deutschland nach Energieträgern",
+   "url": "https://ag-energiebilanzen.de/wp-content/uploads/STRERZ-20260618.xlsx",
+   "fundstelle": "Blatt „STRERZ (brutto)“, Spalte „Anteil in %“: Wind onshore 21,1 + Wind offshore 5,2",
+   "anmerkung": "Braunkohle 14,6 %",
+   "dec": 1
   }
  ],
  "laender": {
