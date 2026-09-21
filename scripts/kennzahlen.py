@@ -35,6 +35,10 @@ LIZENZEN = [
 ]
 
 
+def de(v, d=0):
+    return f"{v:,.{d}f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+
 def csv(name):
     return pd.read_csv(CSV / name)
 
@@ -50,7 +54,7 @@ def registry():
 
     f_st = "EinheitenWind.xml, Feld EinheitBetriebsstatus/WindAnLandOderAufSee, Summe Bruttoleistung"
     add("on_betrieb_n", "Windenergieanlagen an Land in Betrieb", m["on_betrieb_n"], "Anlagen", st, MASTR, f_st,
-        f"inkl. {m['on_klein_n']} Kleinanlagen unter 100 kW ({m['on_klein_mw']} MW)")
+        f"inkl. {de(m['on_klein_n'])} Kleinanlagen unter 100 kW ({de(m['on_klein_mw'], 1)} MW)")
     add("on_betrieb_gw", "Leistung an Land in Betrieb (brutto)", m["on_betrieb_mw"] / 1e3, "GW", st, MASTR, f_st, dec=1)
     add("off_betrieb_n", "Windenergieanlagen auf See in Betrieb", m["off_betrieb_n"], "Anlagen", st, MASTR, f_st)
     add("off_betrieb_gw", "Leistung auf See in Betrieb (brutto)", m["off_betrieb_mw"] / 1e3, "GW", st, MASTR, f_st, dec=1)
@@ -118,9 +122,9 @@ def registry():
 
     vg = csv("eeg2025_vlh_gesamt.csv").set_index("lage")
     add("vlh_on_eeg", "Volllaststunden Wind an Land 2025 (ganzjährig betriebene EEG-Anlagen)", vg.loc["an Land", "vlh_gewichtet"], "h", "2025", EEGxMASTR,
-        f"Summe Strommenge / Summe MaStR-Bruttoleistung, {int(vg.loc['an Land','einheiten'])} Einheiten mit Inbetriebnahme vor 2025", "nach Abregelung; ohne Eigenverbrauch", dec=0)
+        f"Summe Strommenge / Summe MaStR-Bruttoleistung, {de(vg.loc['an Land','einheiten'])} Einheiten mit Inbetriebnahme vor 2025", "nach Abregelung; ohne Eigenverbrauch", dec=0)
     add("vlh_off_eeg", "Volllaststunden Wind auf See 2025 (ganzjährig betriebene EEG-Anlagen)", vg.loc["auf See", "vlh_gewichtet"], "h", "2025", EEGxMASTR,
-        f"{int(vg.loc['auf See','einheiten'])} Einheiten", dec=0)
+        f"{de(vg.loc['auf See','einheiten'])} Einheiten", dec=0)
     vj = csv("eeg2025_vlh_baujahr.csv"); vj = vj[vj.lage == "an Land"].set_index("jahr")
     add("vlh_bj1995", "Volllaststunden 2025, Anlagen an Land Baujahr 1995 (Median)", vj.loc[1995, "vlh_median"], "h", "2025", EEGxMASTR, dec=0)
     add("vlh_bj2017", "Volllaststunden 2025, Anlagen an Land Baujahr 2017 (Median)", vj.loc[2017, "vlh_median"], "h", "2025", EEGxMASTR, dec=0)
@@ -150,12 +154,12 @@ def registry():
     # Werte für den Rechner (eigene Auswertung / eigene Rechnung)
     vn = csv("eeg2025_vlh_baujahr.csv"); vn = vn[(vn.lage == "an Land") & vn.jahr.between(2020, 2024)]
     add("vlh_neu_eeg", "Volllaststunden 2025 der Anlagen an Land mit Baujahr 2020–2024", vn.mwh.sum() * 1e3 / vn.kw.sum(), "h", "2025", EEGxMASTR,
-        f"Summe Strommenge / Summe Bruttoleistung, {int(vn.einheiten.sum())} Einheiten", "2025 war ein windschwaches Jahr (Fraunhofer ISE: 1.639 h gegenüber 1.759 h im Mittel 2015–2025)", dec=0)
+        f"Summe Strommenge / Summe Bruttoleistung, {de(vn.einheiten.sum())} Einheiten", "2025 war ein windschwaches Jahr (Fraunhofer ISE: 1.639 h gegenüber 1.759 h im Mittel 2015–2025)", dec=0)
     add("kw_bestand_eeg", "Mittlere Leistung der ganzjährig betriebenen EEG-Anlagen an Land 2025", vg.loc["an Land", "kw_mittel"] / 1e3, "MW", "2025", EEGxMASTR, "Mittelwert MaStR-Bruttoleistung", dec=2)
     add("mastr_stand_txt", "Stand des Marktstammdatenregister-Exports", "21.09.2026", "", st, MASTR, "Dateiname Gesamtdatenexport_20260921_26.1.zip")
     R.extend(rechner(R))
 
-    add("dom_hoehe", "Höhe Südturm Kölner Dom", 157.22, "m", "–", KOELN, "„157,22 m Südturm Höhe“", dec=2)
+    add("dom_hoehe", "Höhe Südturm Kölner Dom", 157.22, "m", "abgerufen 21.09.2026", KOELN, "„157,22 m Südturm Höhe“", dec=2)
     return R
 
 

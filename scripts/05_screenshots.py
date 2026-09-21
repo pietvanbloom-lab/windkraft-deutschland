@@ -13,6 +13,10 @@ URL = ARGS[0] if ARGS else (ROOT / "index.html").as_uri()
 OUT = ROOT / "screenshots"
 OUT.mkdir(exist_ok=True)
 errors = []
+ENGINE = "webkit" if "--webkit" in sys.argv else "chromium"
+if ENGINE == "webkit":
+    OUT = ROOT / "screenshots" / "webkit"
+    OUT.mkdir(parents=True, exist_ok=True)
 
 
 def watch(page):
@@ -27,7 +31,7 @@ def scroll_to(page, sel, block="start", wait=1.2):
 
 
 def desktop(p, theme="light"):
-    b = p.chromium.launch()
+    b = getattr(p, ENGINE).launch()
     ctx = b.new_context(viewport={"width": 1440, "height": 900}, device_scale_factor=1, color_scheme=theme)
     page = ctx.new_page(); watch(page)
     page.goto(URL); time.sleep(1.5)
@@ -64,8 +68,8 @@ def desktop(p, theme="light"):
 
 
 def mobile(p):
-    b = p.chromium.launch()
-    ctx = b.new_context(viewport={"width": 390, "height": 844}, device_scale_factor=2, is_mobile=True, has_touch=True)
+    b = getattr(p, ENGINE).launch()
+    ctx = b.new_context(**(p.devices["iPhone 15"] if ENGINE == "webkit" else dict(viewport={"width": 390, "height": 844}, device_scale_factor=2, is_mobile=True, has_touch=True)))
     page = ctx.new_page(); watch(page)
     t0 = time.time(); page.goto(URL, wait_until="load"); load = time.time() - t0
     page.screenshot(path=OUT / "20-mobil-start.png")

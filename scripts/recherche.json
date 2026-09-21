@@ -745,18 +745,6 @@
    "dec": null
   },
   {
-   "id": "kolb_merit",
-   "kennzahl": "Merit-Order-Effekt von Wind und PV zusammen, 2014–2018",
-   "wert": null,
-   "einheit": "ct/kWh",
-   "stichtag": "2014–2018",
-   "quelle": "Kolb et al., Renewable and Sustainable Energy Reviews 134 (2020) 110307",
-   "url": "https://doi.org/10.1016/j.rser.2020.110307",
-   "fundstelle": "Abstract: „between 2.89 ct/kWh in 2014 to 8.89 ct/kWh in 2017“",
-   "anmerkung": "Spanne 2,89–8,89 ct/kWh; nur Abstract geprüft",
-   "dec": null
-  },
-  {
    "id": "preis_bnetza_2025",
    "kennzahl": "Durchschnittlicher Day-Ahead-Preis DE/LU 2025 (BNetzA)",
    "wert": 89.32,
@@ -1121,7 +1109,7 @@
    "kennzahl": "Isar 2, Nettoleistung",
    "wert": 1410,
    "einheit": "MW",
-   "stichtag": "–",
+   "stichtag": "IAEA-Ausgabe 2024",
    "quelle": "IAEA, Operating Experience with Nuclear Power Stations in Member States, 2024 Edition",
    "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/OPEX_2024_web.pdf",
    "fundstelle": "PDF S. 586: „Reference unit power (net) : 1410 MWe“",
