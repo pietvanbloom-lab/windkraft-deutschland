@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Windkraft in Deutschland – Anlagen, Strom, Kosten</title>
+<meta name="description" content="Wie viele Windräder in Deutschland stehen, was sie erzeugen, was sie kosten und wie der Vergleich mit Kernkraft ausfällt – mit Karte aller Anlagen, 3D-Größenvergleich und belegten Zahlen.">
+<meta property="og:title" content="Windkraft in Deutschland – Anlagen, Strom, Kosten">
+<meta property="og:description" content="Karte aller Windenergieanlagen, Erzeugung, Förderung, Strompreise und der Vergleich mit Kernkraft. Stand Marktstammdatenregister {{mastr_stand_txt}}.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="screenshots/og.png">
+<meta name="theme-color" content="#f9f9f7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 14 15 31h2z' fill='%232a78d6'/%3E%3Cg fill='%232a78d6'%3E%3Cpath d='M16 14c-1-4-1-9 0-13 1 4 1 9 0 13z'/%3E%3Cpath d='M16 14c-1-4-1-9 0-13 1 4 1 9 0 13z' transform='rotate(120 16 14)'/%3E%3Cpath d='M16 14c-1-4-1-9 0-13 1 4 1 9 0 13z' transform='rotate(240 16 14)'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>try{var t=localStorage.getItem('wk-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+</head>
+<body>
+<header class="topbar">
+  <div class="inner">
+    <a class="brand" href="#top"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 14 15 31h2z" fill="currentColor"/><g fill="var(--on)"><path d="M16 14c-1-4-1-9 0-13 1 4 1 9 0 13z"/><path d="M16 14c-1-4-1-9 0-13 1 4 1 9 0 13z" transform="rotate(120 16 14)"/><path d="M16 14c-1-4-1-9 0-13 1 4 1 9 0 13z" transform="rotate(240 16 14)"/></g></svg><span class="bt">Windkraft in Deutschland</span></a>
+    <nav class="topnav" aria-label="Kapitel">
+      <a href="#karte">Karte</a><a href="#strom">Strom</a><a href="#anlage">Anlagen</a><a href="#groesse">3D</a><a href="#foerderung">Förderung</a><a href="#preise">Preise</a><a href="#kosten">Kosten</a><a href="#fazit">Fazit</a><a href="quellen.html">Quellen</a>
+    </nav>
+    <button class="iconbtn" id="themeBtn" type="button" aria-label="Farbschema wechseln" title="Hell/Dunkel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="kicker">Datenstück · Stand Anlagenregister {{mastr_stand_txt}}</div>
+  <h1>Windkraft in Deutschland</h1>
+  <p class="dek">Wie viele Anlagen stehen wo, was sie liefern und was sie kosten – und wie viele Windräder rechnerisch ein Kernkraftwerk ersetzen. Jede Zahl mit Quelle.</p>
+  <svg class="hero-art" viewBox="0 0 420 260" aria-hidden="true">
+    <g fill="none" stroke="var(--axis)" stroke-width="1"><path d="M0 250H420"/></g>
+    <g fill="var(--ink-2)" opacity=".85">
+      <path d="M79 250 81.5 150h1L85 250z"/><path d="M198 250 201 96h1.6l3.4 154z"/><path d="M332 250 336 38h2.4l4.6 212z"/>
+    </g>
+    <g class="rotor" style="--spd:4.2s" fill="var(--ink-2)"><circle cx="82" cy="150" r="2.4"/><path d="M82 150c-1.6-9-1.8-21 0-30 1.8 9 1.6 21 0 30z"/><path d="M82 150c-1.6-9-1.8-21 0-30 1.8 9 1.6 21 0 30z" transform="rotate(120 82 150)"/><path d="M82 150c-1.6-9-1.8-21 0-30 1.8 9 1.6 21 0 30z" transform="rotate(240 82 150)"/></g>
+    <g class="rotor" style="--spd:6.5s" fill="var(--on)"><circle cx="202" cy="96" r="3"/><path d="M202 96c-2.4-17-2.6-40 0-58 2.6 18 2.4 41 0 58z"/><path d="M202 96c-2.4-17-2.6-40 0-58 2.6 18 2.4 41 0 58z" transform="rotate(120 202 96)"/><path d="M202 96c-2.4-17-2.6-40 0-58 2.6 18 2.4 41 0 58z" transform="rotate(240 202 96)"/></g>
+    <g class="rotor" style="--spd:9s" fill="var(--on)"><circle cx="337" cy="38" r="3.6"/><path d="M337 38c-3.2-26-3.4-60 0-86 3.4 26 3.2 60 0 86z" transform="translate(0 0)"/><path d="M337 38c-3.2-26-3.4-60 0-86 3.4 26 3.2 60 0 86z" transform="rotate(120 337 38)"/><path d="M337 38c-3.2-26-3.4-60 0-86 3.4 26 3.2 60 0 86z" transform="rotate(240 337 38)"/></g>
+  </svg>
+  <div class="kpis">
+    <div class="kpi"><div class="v">{{on_betrieb_n}}</div><div class="l"><span class="dot" style="background:var(--on)"></span>Windenergieanlagen an Land in Betrieb, zusammen {{on_betrieb_gw}} GW</div><div class="s">MaStR, {{mastr_stand_txt}}</div></div>
+    <div class="kpi"><div class="v">{{off_betrieb_n}}</div><div class="l"><span class="dot" style="background:var(--off)"></span>Anlagen auf See in Betrieb, zusammen {{off_betrieb_gw}} GW</div><div class="s">MaStR, {{mastr_stand_txt}}</div></div>
+    <div class="kpi"><div class="v">{{agee_wind_twh}}<span class="u">TWh</span></div><div class="l">Strom aus Wind im Jahr 2025 (brutto)</div><div class="s">UBA/AGEE-Stat</div></div>
+    <div class="kpi"><div class="v">{{agee_wind_anteil}}<span class="u">%</span></div><div class="l">des Bruttostromverbrauchs 2025 kamen aus Windenergie</div><div class="s">UBA/AGEE-Stat</div></div>
+  </div>
+  <p class="stand">Anlagenbestand: Marktstammdatenregister der Bundesnetzagentur, Gesamtexport vom {{mastr_stand_txt}}. Jahreswerte: 2025, das letzte vollständige Jahr. Alle Zahlen mit Fundstelle in der <a href="quellen.html">Quellentabelle</a>.</p>
+</section>
+
+<section class="chapter" id="karte" aria-labelledby="h-karte">
+  <div class="prose">
+    <div class="chapter-no">1 · Wo sie stehen</div>
+    <h2 id="h-karte">Der Norden baut, der Süden bezieht</h2>
+    <p class="lead">Laut Anlagenregister sind {{ges_betrieb_n}} Windenergieanlagen mit {{ges_betrieb_gw}} Gigawatt in Betrieb. Weitere {{on_vorueb_n}} Anlagen an Land stehen, sind aber vorübergehend stillgelegt. Die Karte zeigt, wie ungleich sie verteilt sind.</p>
+  </div>
+  <div class="scrolly" id="scrolly">
+    <div class="map-stage">
+      <div class="map" id="map" role="img" aria-label="Karte Deutschlands mit Bundesländern, eingefärbt nach Windkraft-Kennzahlen; beim Hineinzoomen erscheinen einzelne Anlagen.">
+        <div class="map-ui" id="mapUi"></div>
+        <div class="map-status" id="mapStatus"></div>
+        <div class="map-legend" id="mapLegend"></div>
+        <div class="map-zoom">
+          <button class="iconbtn" type="button" id="zoomIn" aria-label="Hineinzoomen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+          <button class="iconbtn" type="button" id="zoomOut" aria-label="Herauszoomen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/></svg></button>
+          <button class="iconbtn" type="button" id="zoomReset" aria-label="Ganz Deutschland"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+        </div>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step" data-step="anzahl"><div class="card">
+        <h3>Anzahl der Anlagen</h3>
+        <p>Niedersachsen hat mit {{ni_n}} die meisten Anlagen an Land, vor Brandenburg ({{bb_n}}) und Nordrhein-Westfalen ({{nw_n}}). In Bayern stehen {{by_n}}, in Baden-Württemberg {{bw_n}}.</p>
+        <ol class="rank" data-rank="n"></ol>
+      </div></div>
+      <div class="step" data-step="leistung"><div class="card">
+        <h3>Installierte Leistung</h3>
+        <p>Nach Leistung liegt Niedersachsen mit {{ni_gw}} GW vorn. Bayern und Baden-Württemberg, die beiden größten Flächenländer im Süden, kommen zusammen auf {{sued_anteil_pct}} Prozent der Leistung an Land.</p>
+        <p>Auf See drehen sich {{off_betrieb_n}} Anlagen, {{off_nordsee_gw}} GW in der Nordsee und {{off_ostsee_gw}} GW in der Ostsee (türkise Punkte).</p>
+        <ol class="rank" data-rank="mw"></ol>
+      </div></div>
+      <div class="step" data-step="zuschlag"><div class="card">
+        <h3>Wo als Nächstes gebaut wird</h3>
+        <p>In den vier Ausschreibungen 2025 vergab die Bundesnetzagentur Zuschläge für {{zuschlag_2025_gw}} GW an Land. Mehr als die Hälfte ging nach Nordrhein-Westfalen und Niedersachsen, in den Süden deutlich weniger.</p>
+        <ol class="rank" data-rank="zuschlag25_mw"></ol>
+      </div></div>
+      <div class="step" data-step="eeg"><div class="card">
+        <h3>Wohin die Förderung fließt</h3>
+        <p>2025 zahlten die Übertragungsnetzbetreiber {{eeg_on_mio}} Mio. € an Windanlagen an Land, im Schnitt {{eeg_on_ct}} ct je Kilowattstunde. Das meiste Geld ging dorthin, wo die meisten Anlagen stehen. Windparks in der Ausschließlichen Wirtschaftszone erhielten {{eeg_awz_mio}} Mio. €.</p>
+        <ol class="rank" data-rank="eeg_mio"></ol>
+      </div></div>
+      <div class="step" data-step="netzentgelt"><div class="card">
+        <h3>Was Haushalte für das Netz zahlen</h3>
+        <p>Lange zahlten Haushalte ausgerechnet dort die höchsten Netzentgelte, wo die meisten Windräder stehen, weil Netzausbau und Anschlüsse regional umgelegt wurden. Seit 2025 verteilt die Bundesnetzagentur diese Mehrkosten bundesweit: {{waelz_2025_mrd}} Mrd. € für {{waelz_2025_nb}} Netzbetreiber. Bei der Schleswig-Holstein Netz AG sank das Haushaltsentgelt dadurch von {{ne_shnetz_2024}} auf {{ne_shnetz_2025}} ct/kWh.</p>
+        <p>2025 lagen Mecklenburg-Vorpommern ({{ne_mv_2025}} ct) und Niedersachsen unter dem Bundesschnitt von {{ne_bund_2025}} ct/kWh, Hamburg ({{ne_hh_2025}} ct) und Baden-Württemberg ({{ne_bw_2025}} ct) darüber. Blau: günstiger als der Schnitt, rot: teurer.</p>
+        <ol class="rank" data-rank="netzentgelt"></ol>
+      </div></div>
+      <div class="step" data-step="zoom"><div class="card">
+        <h3>Jede Anlage ein Punkt</h3>
+        <p>Beim Hineinzoomen erscheinen die {{punkte_n}} Anlagen ab 100 kW einzeln: Größe nach Leistung, Farbe nach Baujahr. Die Karte zoomt an die Westküste Schleswig-Holsteins: Nordfriesland ({{kreis_nf_n}} Anlagen) und Dithmarschen ({{kreis_di_n}}) sind die beiden Kreise mit den meisten Windrädern in Deutschland.</p>
+        <p class="small">Tippen oder Überfahren zeigt Typ, Hersteller, Leistung, Nabenhöhe und Baujahr. Betreiber, Namen und Adressen sind nicht enthalten.</p>
+      </div></div>
+      <div class="step" data-step="frei"><div class="card">
+        <h3>Selbst erkunden</h3>
+        <p>Mit den Schaltflächen oben auf der Karte die Kennzahl wechseln, mit Mausrad, Pinch oder den Plus- und Minus-Tasten zoomen.</p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section class="chapter" id="strom" aria-labelledby="h-strom">
+  <div class="prose">
+    <div class="chapter-no">2 · Was sie liefern</div>
+    <h2 id="h-strom">Ein Viertel des Stroms, schwankend mit dem Wetter</h2>
+    <p class="lead">2025 erzeugten Windanlagen {{agee_wind_twh}} Terawattstunden Strom, {{agee_on_twh}} an Land und {{agee_off_twh}} auf See. Das deckte {{agee_wind_anteil}} Prozent des Bruttostromverbrauchs von {{agee_bsv}} TWh.</p>
+    <p>Wind ist damit die größte einzelne Stromquelle in Deutschland. 2025 war allerdings ein windschwaches Jahr: Obwohl die Leistung an Land um {{wg_netto_gw}} GW wuchs, fiel die Erzeugung unter das Vorjahr ({{agee_wind_2024_twh}} TWh). Im ersten Halbjahr 2026 lag sie mit {{agee_h1_2026_twh}} TWh wieder deutlich über dem Vorjahreszeitraum ({{agee_h1_2025_twh}} TWh).</p>
+  </div>
+  <div class="wide">
+    <div class="two">
+      <figure class="figure" data-chart="ausbau">
+        <h3>Installierte Leistung</h3><div class="sub">Gigawatt am Jahresende, 2000–2025</div>
+        <div class="legend"><span><i style="background:var(--on)"></i>an Land</span><span><i style="background:var(--off)"></i>auf See</span></div>
+        <div class="plot short"><canvas></canvas></div>
+        <div class="foot"><span class="src">Quelle: UBA/AGEE-Stat, Zeitreihen (Stand 02/2026)</span><button class="btn tbtn" type="button">Tabelle</button></div>
+      </figure>
+      <figure class="figure" data-chart="erzeugung">
+        <h3>Stromerzeugung</h3><div class="sub">Terawattstunden brutto, 2000–2025</div>
+        <div class="legend"><span><i style="background:var(--on)"></i>an Land</span><span><i style="background:var(--off)"></i>auf See</span></div>
+        <div class="plot short"><canvas></canvas></div>
+        <div class="foot"><span class="src">Quelle: UBA/AGEE-Stat, Zeitreihen (Stand 02/2026)</span><button class="btn tbtn" type="button">Tabelle</button></div>
+      </figure>
+    </div>
+  </div>
+  <div class="prose">
+    <p>Über das Jahr verteilt ergänzen sich Wind und Sonne: Windstrom kommt vor allem im Winterhalbjahr, Solarstrom im Sommer. Innerhalb eines Tages schwankt Wind stark: 2025 lag die Einspeisung zwischen {{wind_min_gw}} und {{wind_max_gw}} GW, in {{std_wind_u5}} Stunden unter 5 GW.</p>
+  </div>
+  <div class="wide">
+    <figure class="figure" data-chart="monate">
+      <h3>Wind und Sonne über das Jahr</h3><div class="sub">Realisierte Nettoerzeugung je Monat 2025, Terawattstunden</div>
+      <div class="legend"><span><i class="line" style="background:var(--on)"></i>Wind (an Land + auf See)</span><span><i class="line" style="background:var(--pv)"></i>Photovoltaik</span></div>
+      <div class="plot short"><canvas></canvas></div>
+      <div class="foot"><span class="src">Quelle: Bundesnetzagentur | SMARD.de (CC BY 4.0), eigene Summierung der Stundenwerte</span><button class="btn tbtn" type="button">Tabelle</button></div>
+    </figure>
+  </div>
+</section>
+
+<section class="chapter" id="anlage" aria-labelledby="h-anlage">
+  <div class="prose">
+    <div class="chapter-no">3 · Was eine Anlage leistet</div>
+    <h2 id="h-anlage">Neue Anlagen liefern das Zwanzigfache</h2>
+    <p class="lead">Eine 2025 neu gebaute Anlage an Land hat im Schnitt {{wg_neu_kw}} MW Nennleistung, {{wg_neu_nabe}} m Nabenhöhe und {{wg_neu_rotor}} m Rotordurchmesser, bis zur Flügelspitze {{wg_neu_hoehe}} m. Eine Anlage aus dem Jahr 2000 hatte {{neu2000_mw}} MW auf {{neu2000_nabe}} m.</p>
+    <p>Wie viel Strom das bringt, zeigt die EEG-Abrechnung 2025, die für jede geförderte Anlage die eingespeiste Menge ausweist. Verknüpft mit dem Anlagenregister ergibt sich: Eine Anlage mit Baujahr 2024 speiste 2025 im Median {{mwh_bj2024}} Megawattstunden ein, eine aus dem Jahr 1995 {{mwh_bj1995}} MWh. Neue Anlagen sind nicht nur größer, sie laufen auch länger unter Volllast: {{vlh_bj2017}} statt {{vlh_bj1995}} Stunden im Jahr, weil höhere Türme und längere Flügel stetigeren Wind erreichen.</p>
+  </div>
+  <div class="wide">
+    <figure class="figure" data-chart="jahrgang">
+      <h3>Anlagen an Land nach Baujahr</h3><div class="sub" id="jahrgangSub">Median-Jahresertrag 2025 je Anlage, Megawattstunden</div>
+      <div class="seg" role="group" aria-label="Kennzahl wählen">
+        <button class="btn" type="button" data-view="mwh" aria-pressed="true">Jahresertrag</button>
+        <button class="btn" type="button" data-view="vlh" aria-pressed="false">Volllaststunden</button>
+        <button class="btn" type="button" data-view="mw" aria-pressed="false">Nennleistung</button>
+        <button class="btn" type="button" data-view="nabe" aria-pressed="false">Nabenhöhe</button>
+      </div>
+      <div class="plot"><canvas></canvas></div>
+      <div class="foot"><span class="src" id="jahrgangSrc">Quelle: EEG-Jahresabrechnung 2025 (netztransparenz.de), verknüpft mit dem Marktstammdatenregister; nur ganzjährig betriebene Anlagen ab 100 kW; eigene Auswertung</span><button class="btn tbtn" type="button">Tabelle</button></div>
+    </figure>
+  </div>
+  <div class="prose">
+    <div class="stats">
+      <div class="stat"><div class="v">{{vlh_on_eeg}}<span class="u">h</span></div><div class="l">Volllaststunden an Land 2025 (Flotte, EEG-Daten)</div></div>
+      <div class="stat"><div class="v">{{vlh_off_eeg}}<span class="u">h</span></div><div class="l">Volllaststunden auf See 2025 (Flotte, EEG-Daten)</div></div>
+      <div class="stat"><div class="v">{{vlh_sh}}<span class="u">h</span></div><div class="l">an Land in Schleswig-Holstein</div></div>
+      <div class="stat"><div class="v">{{vlh_by}}<span class="u">h</span></div><div class="l">an Land in Bayern</div></div>
+    </div>
+    <p class="small">Volllaststunden: Jahreserzeugung geteilt durch Nennleistung. Ein Jahr hat 8.760 Stunden. Fraunhofer ISE nennt für 2025 {{ise_vlh_on}} h an Land und {{ise_vlh_off}} h auf See; die Abweichung zu unseren Werten liegt an Abgrenzung (nur ganzjährig betriebene EEG-Anlagen) und Datenbasis. Die EEG-Mengen sind nach Abregelung gemessen.</p>
+  </div>
+</section>
+
+<section class="chapter" id="groesse" aria-labelledby="h-groesse">
+  <div class="prose">
+    <div class="chapter-no">4 · Wie groß sie sind</div>
+    <h2 id="h-groesse">Höher als der Kölner Dom</h2>
+    <p class="lead">Die verbreitetsten Anlagentypen in Deutschland im Maßstab 1:1 neben dem Kölner Dom ({{dom_hoehe}} m). Nabenhöhe und Leistung sind Medianwerte aller in Betrieb befindlichen Anlagen des jeweiligen Typs im Marktstammdatenregister.</p>
+  </div>
+  <div class="wide">
+    <div class="viz3d" id="viz3d">
+      <div class="fallback" id="viz3dFallback">3D-Ansicht wird geladen …</div>
+    </div>
+    <div class="typecards" id="typecards"></div>
+    <p class="small" style="margin-top:10px">Modelle vereinfacht; Drehzahl der Rotoren schematisch. Kölner Dom nach Angaben der Hohen Domkirche Köln (Türme 157,22 m und 157,18 m, Länge 144,58 m). Offshore-Nabenhöhen laut Register. Ertrag 2025: Median der ganzjährig betriebenen Anlagen dieses Typs laut EEG-Abrechnung.</p>
+  </div>
+  <div class="prose">
+    <p>Drei Hersteller dominieren: Enercon stellt {{h_enercon_pct}} Prozent der Leistung an Land, Vestas {{h_vestas_pct}} und Nordex {{h_nordex_pct}} Prozent. Beim Zubau 2025 lagen die drei fast gleichauf, Nordex knapp vorn. Auf See kommen {{h_sg_off_pct}} Prozent der Leistung von Siemens Gamesa.</p>
+  </div>
+  <div class="wide">
+    <figure class="figure" data-chart="hersteller">
+      <h3>Hersteller: Bestand und Zubau an Land</h3><div class="sub">Anteil an der installierten Leistung, Prozent</div>
+      <div class="legend"><span><i style="background:var(--neutral)"></i>Bestand (in Betrieb)</span><span><i style="background:var(--on)"></i>Zubau 2025</span></div>
+      <div class="plot short"><canvas></canvas></div>
+      <div class="foot"><span class="src">Quelle: Marktstammdatenregister ({{mastr_stand_txt}}), Herstellerangaben zu Marken zusammengefasst (z. B. Senvion mit REpower); eigene Auswertung</span><button class="btn tbtn" type="button">Tabelle</button></div>
+    </figure>
+  </div>
+</section>
+
+<section class="chapter" id="foerderung" aria-labelledby="h-foerderung">
+  <div class="prose">
+    <div class="chapter-no">5 · Förderung</div>
+    <h2 id="h-foerderung">An Land wenig Förderbedarf, auf See mehr</h2>
+    <p class="lead">Die Übertragungsnetzbetreiber zahlten 2025 insgesamt {{eeg_ges_mrd}} Mrd. € an Windanlagen: {{eeg_on_mio}} Mio. € an Land und {{eeg_off_mio}} Mio. € auf See. Pro Kilowattstunde waren das {{eeg_on_ct}} ct an Land, aber {{eeg_off_ct}} ct auf See.</p>
+    <p>Der Grund liegt im Fördermodell. Neue Anlagen erhalten keinen festen Preis mehr, sondern eine Marktprämie: die Differenz zwischen ihrem Zuschlagswert aus der Ausschreibung und dem Marktwert ihres Stroms. Liegt der Börsenwert darüber, fließt nichts. Auf See erhalten ältere Parks aus der Zeit vor den Ausschreibungen noch hohe feste Vergütungssätze.</p>
+    <div class="stats">
+      <div class="stat"><div class="v">{{eeg_on_mio}}<span class="u">Mio. €</span></div><div class="l">EEG-Zahlungen Wind an Land 2025 für {{eeg_on_twh}} TWh</div></div>
+      <div class="stat"><div class="v">{{eeg_off_mio}}<span class="u">Mio. €</span></div><div class="l">EEG-Zahlungen Wind auf See 2025 für {{eeg_off_twh}} TWh</div></div>
+      <div class="stat"><div class="v">{{zuschlag_2025_ct}}<span class="u">ct/kWh</span></div><div class="l">mittlerer Zuschlagswert an Land 2025</div></div>
+      <div class="stat"><div class="v">{{zuschlag_2508_ct}}<span class="u">ct/kWh</span></div><div class="l">Zuschlagswert der Runde August 2026</div></div>
+    </div>
+    <p>Die Zuschlagswerte in den Ausschreibungen an Land sind seit Anfang 2025 deutlich gefallen, weil mehr genehmigte Projekte um die Zuschläge konkurrieren. Auf See dagegen gab es in der Ausschreibung vom August 2025 für 2,5 GW kein einziges Gebot; die Ausschreibungen für 2026 sind ausgesetzt und auf 2027 verschoben.</p>
+  </div>
+  <div class="wide">
+    <figure class="figure" data-chart="runden">
+      <h3>Ausschreibungen Wind an Land</h3><div class="sub">Mengengewichteter Zuschlagswert und gesetzlicher Höchstwert je Gebotstermin, ct/kWh</div>
+      <div class="legend"><span><i class="line" style="background:var(--on)"></i>Zuschlagswert (Mittel)</span><span><i class="line" style="background:var(--neutral)"></i>Höchstwert</span></div>
+      <div class="plot short"><canvas></canvas></div>
+      <div class="foot"><span class="src">Quelle: Bundesnetzagentur, Ergebnisse der Gebotstermine 2025–2026 und Statistik Ausschreibungen Wind an Land (Stand 14.09.2026)</span><button class="btn tbtn" type="button">Tabelle</button></div>
+    </figure>
+  </div>
+  <div class="prose">
+    <p>Dass an Land so wenig Geld fließt, liegt an den Marktpreisen: Der Jahresmarktwert von Windstrom an Land lag 2025 bei {{mw_on_2025}} ct/kWh und damit über dem mittleren Zuschlagswert der Ausschreibungen desselben Jahres ({{zuschlag_2025_ct}} ct/kWh). In Stunden mit negativen Börsenpreisen, 2025 waren es {{neg_std_2025}}, entfällt die Prämie für neuere Anlagen ganz. 2024 hatten die Zahlungen an Windanlagen noch {{ja24_wind_mrd}} Mrd. € betragen.</p>
+    <p>Zur Einordnung: Der Bund zahlte 2025 insgesamt {{konto_bund_2025}} Mrd. € auf das EEG-Konto, für alle Technologien zusammen. Für 2026 erwarten die Netzbetreiber bei Wind an Land einen Finanzierungsbedarf von {{fb26_on}} Mio. € und bei Wind auf See von {{fb26_off}} Mio. €, jeweils nach Abzug der Vermarktungserlöse.</p>
+    <p class="small">EEG-Zahlungen: Marktprämie plus Einspeise- und Ausfallvergütung laut EEG-Jahresabrechnung 2025 der vier Übertragungsnetzbetreiber (an Land Marktprämie {{ja25_on_mp}} Mio. €, Einspeisevergütung {{ja25_on_ev}} Mio. €). Die Kommunalbeteiligung nach § 6 EEG ({{kommunal_2025}} Mio. €) ist nicht enthalten. Die Aufteilung nach Bundesländern ist eine eigene Auswertung der Anlagendaten; ihre Summe stimmt mit der Jahresabrechnung überein.</p>
+  </div>
+</section>
+
+<section class="chapter" id="preise" aria-labelledby="h-preise">
+  <div class="prose">
+    <div class="chapter-no">6 · Strompreise</div>
+    <h2 id="h-preise">Billiger an der Börse, teurer im Netz</h2>
+    <p class="lead">Viel Wind drückt den Großhandelspreis. 2025 kostete Strom am Day-Ahead-Markt in den zehn Prozent windstärksten Stunden im Mittel {{preis_windstark}} €/MWh, in den zehn Prozent windschwächsten {{preis_windschwach}} €/MWh.</p>
+    <p>Dahinter steht die Merit-Order: Der Preis richtet sich nach dem teuersten Kraftwerk, das zur Deckung der Nachfrage noch gebraucht wird. Windstrom hat keine Brennstoffkosten und verdrängt Gas- und Kohlekraftwerke aus diesem Stapel. Die Grafik zeigt einen Zusammenhang, keinen reinen Wind-Effekt: Auch Tageszeit, Solarstrom und Gaspreis wirken.</p>
+  </div>
+  <div class="wide">
+    <figure class="figure" data-chart="merit">
+      <h3>Börsenpreis nach Windanteil</h3><div class="sub">Mittlerer Day-Ahead-Preis DE/LU 2025 in Stunden mit dem jeweiligen Anteil von Wind an der Netzlast, €/MWh</div>
+      <div class="plot short"><canvas></canvas></div>
+      <div class="foot"><span class="src">Quelle: Bundesnetzagentur | SMARD.de (CC BY 4.0), 8.760 Stundenwerte 2025; eigene Auswertung</span><button class="btn tbtn" type="button">Tabelle</button></div>
+    </figure>
+  </div>
+  <div class="prose">
+    <p>Der Börsenpreis ist nur ein Teil der Stromrechnung, und hier kehrt sich das Bild um. Windstrom aus dem Norden muss zu den Verbrauchern im Süden und Westen, doch die Leitungen reichen nicht. Netzbetreiber regeln deshalb Windparks ab und fahren anderswo Kraftwerke hoch. 2025 wurden {{abreg_on_gwh}} TWh Windstrom an Land und {{abreg_off_gwh}} TWh auf See abgeregelt. Das Netzengpassmanagement kostete {{nem_kosten_2025}} Mrd. €, darunter {{nem_ee_ausgleich}} Mio. € Entschädigung für abgeregelte Anlagen.</p>
+    <p>Die Kosten des Netzausbaus landen in den Netzentgelten. Seit 2025 werden die Mehrkosten der Regionen mit viel Wind- und Solarstrom bundesweit verteilt; für einen Haushalt mit 3.500 kWh bedeutet das laut Bundesnetzagentur rund {{aufschlag_hh_eur}} € Mehrbelastung im Jahr, in den Windregionen sinken die Entgelte dafür deutlich (Karte oben, Schritt „Netzentgelt“). Für 2026 zahlt der Bund zusätzlich {{uenb_zuschuss_2026}} Mrd. € zu den Kosten der Übertragungsnetze.</p>
+    <p>Eine Alternative wäre eine Aufteilung Deutschlands in mehrere Preiszonen, mit billigerem Strom im Norden. Die europäischen Netzbetreiber (ENTSO-E) haben 2025 berechnet, dass fünf Zonen einen Wohlfahrtsgewinn von {{bzr_de5}} Mio. € im Jahr brächten, nach eigener Angabe weniger als ein Prozent der Systemkosten. Die Bundesregierung hält an der einheitlichen Zone fest.</p>
+  </div>
+</section>
+
+<section class="chapter" id="kosten" aria-labelledby="h-kosten">
+  <div class="prose">
+    <div class="chapter-no">7 · Kosten und Kernkraft</div>
+    <h2 id="h-kosten">Was eine Kilowattstunde kostet</h2>
+    <p class="lead">Die Stromgestehungskosten (LCOE) verteilen alle Kosten einer Anlage über ihre Lebensdauer auf jede erzeugte Kilowattstunde. Nach Fraunhofer ISE kostet Strom aus neuen Windanlagen an Land {{ise_lcoe_on}} ct/kWh, auf See {{ise_lcoe_off}} ct/kWh und aus einem neuen Kernkraftwerk {{ise_lcoe_kkw}} ct/kWh.</p>
+    <p>Dieser Vergleich hat zwei Schieflagen, die in entgegengesetzte Richtungen wirken. Das ISE rechnet Kernkraft mit höheren Kapitalkosten (7,8 statt 3,9 Prozent real) und mit sinkender Auslastung: von 4.300 bis 6.300 Volllaststunden heute auf 2.000 bis 4.000 im Jahr 2045, weil Kernkraftwerke in einem System mit viel Wind und Sonne seltener laufen würden. Die letzten deutschen Kernkraftwerke liefen zuletzt rund {{bdew_kkw_vlh}} Stunden im Jahr. Umgekehrt fehlen im LCOE die Systemkosten: Windstrom braucht Reservekraftwerke oder Speicher, Ausgleichsenergie und Netzausbau.</p>
+  </div>
+  <div class="wide">
+    <figure class="figure" data-chart="lcoe">
+      <h3>Stromgestehungskosten neuer Anlagen</h3><div class="sub">Spannen nach Fraunhofer ISE für Neuanlagen 2024, ct/kWh real, ohne Systemkosten</div>
+            <div class="plot tall"><canvas></canvas></div>
+      <div class="foot"><span class="src">Quelle: Fraunhofer ISE, Stromgestehungskosten Erneuerbare Energien (Juli 2024), Zusammenfassung und Tab. 1–5</span><button class="btn tbtn" type="button">Tabelle</button></div>
+    </figure>
+  </div>
+  <div class="prose">
+    <h3 style="margin-top:28px;font-size:1.35rem">Auf gleicher Basis gerechnet</h3>
+    <p>Der Rechner unten übernimmt die Kostenannahmen des ISE, setzt aber für alle Technologien dieselben Kapitalkosten an (voreingestellt 7 Prozent real, der Standard von IEA und OECD-NEA), lässt das Kernkraftwerk so viele Stunden laufen wie Isar 2 im Jahr 2021 ({{kkw_vlh}} h) und schlägt die Systemkosten auf, die die OECD-NEA für Deutschland bei 30 Prozent Anteil einer Technologie berechnet hat.</p>
+    <p>Mit diesen Voreinstellungen kostet Wind an Land {{calc_on_lo}} bis {{calc_on_hi}} ct/kWh, Wind auf See {{calc_off_lo}} bis {{calc_off_hi}} ct/kWh und ein neues Kernkraftwerk {{calc_kkw_lo}} bis {{calc_kkw_hi}} ct/kWh. Die Spannen überlappen; Wind an Land bleibt im Mittel günstiger, der Abstand ist aber viel kleiner als in der ISE-Grafik. Die Systemkosten der NEA beruhen auf Kostendaten von 2010 und steigen mit dem Anteil von Wind und Sonne; bei 50 Prozent schätzt die NEA sie in einer neueren Studie auf {{nea19_sys}} USD/MWh (30 % / 50 % Anteil).</p>
+    <p>Reale Preise zur Einordnung, keine LCOE: Neue Windparks an Land erhielten in der Ausschreibung vom August 2026 im Mittel {{zuschlag_2508_ct}} ct/kWh. Für Hinkley Point C in Großbritannien ist ein Abnahmepreis von {{hpc_strike}} £/MWh garantiert (indexiert, ursprünglich 89,50 £ in Preisen von 2012). Der französische Rechnungshof beziffert den nötigen Verkaufspreis für Flamanville 3 auf {{fla_preis}} €/MWh bei 4 bzw. 7 Prozent Rendite.</p>
+    <h3 style="margin-top:32px;font-size:1.35rem">Wie viele Windräder ersetzen ein Kernkraftwerk?</h3>
+    <p>Die Frage hat zwei Antworten, je nachdem, ob man Energie oder gesicherte Leistung vergleicht. Der Rechner zeigt die Energie-Rechnung: Wie viele Anlagen erzeugen im Jahr so viel Strom wie ein Kernkraftwerk? Die Annahmen sind voreingestellt und belegt, lassen sich aber ändern.</p>
+  </div>
+  <div class="wide">
+    <div class="calc" id="calc"></div>
+  </div>
+  <div class="prose">
+    <p>Mit den Voreinstellungen erzeugen rund {{kkw_n_neu_on}} neue Windanlagen an Land im Jahr so viel Strom wie Isar 2. Das ist die halbe Antwort. Ein Kernkraftwerk liefert, wann Strom gebraucht wird, Windanlagen nur, wenn Wind weht. Die Übertragungsnetzbetreiber setzen in ihrer Leistungsbilanz deshalb nur {{uenb_wind_gesichert}} Prozent der Windleistung als gesichert an; die OECD-NEA rechnet für Deutschland mit 6 bis 8 Prozent an Land und 97 Prozent für Kernkraft. Für die gleiche gesicherte Leistung wären rechnerisch rund {{kkw_n_firm_on}} neue Anlagen an Land nötig. In der Praxis wird niemand so bauen: Die Lücke schließen Speicher, flexible Kraftwerke und Leitungen, und genau deren Kosten stecken in den Systemkosten.</p>
+  </div>
+</section>
+
+<section class="chapter" id="fazit" aria-labelledby="h-fazit">
+  <div class="prose">
+    <div class="chapter-no">8 · Fazit</div>
+    <h2 id="h-fazit">Die wichtigsten Erkenntnisse</h2>
+    <ol class="insights">
+      <li><strong>Wind ist die größte Stromquelle.</strong> {{agee_wind_twh}} TWh im Jahr 2025, {{agee_wind_anteil}} Prozent des Bruttostromverbrauchs. Die Erzeugung schwankt mit dem Wetter: 2025 war schwach, das erste Halbjahr 2026 lag zwölf Prozent darüber.</li>
+      <li><strong>Der Bestand ist ungleich verteilt.</strong> {{ges_betrieb_n}} Anlagen sind in Betrieb, die meisten im Norden und Osten. Bayern und Baden-Württemberg haben zusammen nur {{sued_anteil_pct}} Prozent der Leistung an Land.</li>
+      <li><strong>Neue Anlagen sind ein anderes Kaliber.</strong> Eine Anlage mit Baujahr 2024 lieferte 2025 im Median {{mwh_bj2024}} MWh, eine von 1995 {{mwh_bj1995}} MWh. Genehmigt, aber noch nicht gebaut sind an Land rund {{fa_genehmigt_offen_gw}} GW.</li>
+      <li><strong>An Land braucht Wind kaum noch Förderung, auf See stockt der Ausbau.</strong> 2025 flossen im Schnitt {{eeg_on_ct}} ct je kWh an Windanlagen an Land, {{eeg_off_ct}} ct auf See. Die Zuschlagswerte an Land fielen auf {{zuschlag_2508_ct}} ct/kWh; auf See gab es 2025 für 2,5 GW kein Gebot, die Ausschreibungen 2026 sind ausgesetzt.</li>
+      <li><strong>Wind senkt den Börsenpreis, die Netze kosten.</strong> In den windreichsten Stunden 2025 lag der Preis bei {{preis_windstark}} €/MWh, in den windärmsten bei {{preis_windschwach}} €/MWh. Gleichzeitig kostete das Engpassmanagement {{nem_kosten_2025}} Mrd. €, und Netzausbaukosten werden seit 2025 bundesweit verteilt.</li>
+      <li><strong>Auf gleicher Basis liegen Wind und Kernkraft näher beieinander als oft dargestellt.</strong> Mit gleichen Kapitalkosten, voller Auslastung für Kernkraft und Systemkosten: Wind an Land {{calc_on_lo}}–{{calc_on_hi}} ct/kWh, neues Kernkraftwerk {{calc_kkw_lo}}–{{calc_kkw_hi}} ct/kWh.</li>
+      <li><strong>Rund {{kkw_n_neu_on}} neue Windräder ersetzen ein Kernkraftwerk – bei der Energiemenge, nicht bei der gesicherten Leistung.</strong> Dafür braucht es zusätzlich Speicher, flexible Kraftwerke und Netze.</li>
+    </ol>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wide">
+    <p><strong>Daten und Methode.</strong> Anlagenbestand aus dem Gesamtdatenexport des Marktstammdatenregisters vom {{mastr_stand_txt}}; Förderung und Einzelerträge aus der EEG-Jahresabrechnung 2025 der Übertragungsnetzbetreiber; Stundenwerte von SMARD; Jahreswerte von UBA/AGEE-Stat. Alle Werte als Momentaufnahme eingebettet, keine Live-Abfragen. Auswertungsskripte und Zwischenergebnisse liegen im Repository. <a href="quellen.html">Quellentabelle mit Fundstellen</a>.</p>
+    <p><strong>Datenschutz.</strong> Aus dem Register wurden keine Betreiber-, Namens-, Adress- oder Flurstücksangaben übernommen. Anlagen unter 100 kW (meist private Kleinwindanlagen) erscheinen nicht als Punkte.</p>
+    <p><strong>Lizenzen.</strong> © Bundesnetzagentur (Marktstammdatenregister), dl-de/by-2-0, verändert. Verwaltungsgrenzen: © BKG (2026) dl-de/by-2-0, Datenquellen: <a href="https://sgx.geodatenzentrum.de/web_public/gdz/datenquellen/datenquellen_vg_nuts.pdf">sgx.geodatenzentrum.de</a>. Nachbarstaaten: Natural Earth (gemeinfrei). SMARD: Bundesnetzagentur | SMARD.de, CC BY 4.0. Bibliotheken: D3.js (ISC), Chart.js (MIT), three.js (MIT).</p>
+  </div>
+</footer>
+<div class="tooltip" id="tooltip" role="status" aria-live="polite"></div>
+
+<script src="data/core.js"></script>
+<script src="data/geo.js"></script>
+<script src="assets/vendor/d3.min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/map.js"></script>
+<script src="assets/vendor/chart.umd.min.js" defer></script>
+<script src="assets/js/charts.js" defer></script>
+<script src="assets/js/calc.js" defer></script>
+<script src="assets/js/viz3d.js" defer></script>
+</body>
+</html>

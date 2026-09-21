@@ -1,0 +1,17 @@
+{
+ "jahr": 2025,
+ "wind_on_twh": 106.77,
+ "wind_off_twh": 26.19,
+ "netzlast_twh": 465.82,
+ "erzeugung_twh": 437.9,
+ "anteil_erzeugung_pct": 30.4,
+ "anteil_netzlast_pct": 28.5,
+ "preis_mittel": 89.32,
+ "stunden_negativ": 573,
+ "wind_max_gw": 51.5,
+ "wind_min_gw": 0.41,
+ "stunden_wind_unter_5gw": 1540,
+ "stunden_wind_ueber_last_50pct": 1393,
+ "preis_windschwach_10pct": 95.1,
+ "preis_windstark_10pct": 55.5
+}

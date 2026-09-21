@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quellen – Windkraft in Deutschland</title>
+<meta name="description" content="Quellentabelle: jede Kernzahl der Seite „Windkraft in Deutschland“ mit Wert, Einheit, Stichtag, Quelle, Link und Fundstelle.">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>try{var t=localStorage.getItem('wk-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+</head>
+<body>
+<header class="topbar">
+  <div class="inner">
+    <a class="brand" href="index.html">← Windkraft in Deutschland</a>
+    <nav class="topnav" aria-label="Abschnitte"><a href="#tabelle">Kennzahlen</a><a href="#methode">Methode</a><a href="#lizenzen">Lizenzen</a></nav>
+    <button class="iconbtn" id="themeBtn" type="button" aria-label="Farbschema wechseln"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+  </div>
+</header>
+<main>
+  <section class="hero" style="padding-bottom:8px">
+    <div class="kicker">Quellen und Methode</div>
+    <h1 style="font-size:clamp(2rem,1.4rem+3vw,3.2rem);max-width:none">Jede Zahl mit Beleg</h1>
+    <p class="dek" style="max-width:60ch">Die Tabelle listet alle Kernzahlen der Seite mit Wert, Einheit, Stichtag, Quelle, Link und Fundstelle. Eigene Auswertungen sind als solche gekennzeichnet; die Skripte liegen im Repository (<code>scripts/</code>), die Zwischenergebnisse als CSV unter <code>data/csv/</code>.</p>
+  </section>
+  <div class="wide" id="tabelle">
+    <label class="sr-only" for="qf">Tabelle filtern</label>
+    <input class="qfilter" id="qf" type="search" placeholder="Filtern, z. B. „Kernkraft“, „EEG“, „MaStR“ …">
+    <div class="tablewrap">
+      <table class="qtable" id="qt">
+        <thead><tr><th scope="col">Kennzahl</th><th scope="col">Wert</th><th scope="col">Stichtag</th><th scope="col">Quelle</th><th scope="col">Fundstelle / Methode</th></tr></thead>
+        <tbody>
+{{QUELLEN_ROWS}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="prose" id="methode" style="margin-top:48px">
+    <h2>Methode</h2>
+    <p><strong>Anlagenbestand.</strong> Gesamtdatenexport des Marktstammdatenregisters vom 21.09.2026, Datei <code>EinheitenWind.xml</code> (43.553 Einheiten aller Status). „In Betrieb“ entspricht dem Betriebsstatus im Register. Das Register enthält auch Kleinwindanlagen; WindGuard und die Fachagentur zählen erst ab 100 kW, daher liegen ihre Anlagenzahlen niedriger. Stilllegungen vor dem Registerstart 2019 sind nur teilweise erfasst.</p>
+    <p><strong>Förderung und Einzelerträge.</strong> Anlagenstamm- und Bewegungsdaten der EEG-Jahresabrechnung 2025 aller vier Übertragungsnetzbetreiber (netztransparenz.de, Datenstand 04.09.2026). Zugeordnet wird über die EEG-MaStR-Nummer, bei fehlender Nummer über den Anlagenschlüssel. Die Summen je Netzbetreiber stimmen mit den Anlagen 1a und 1b der veröffentlichten Jahresabrechnung überein. Volllaststunden je Anlage: abgerechnete Jahresstrommenge geteilt durch die Bruttoleistung laut MaStR, nur für Anlagen ab 100 kW, die vor dem 1.1.2025 in Betrieb gingen und durchgehend in Betrieb sind. Die Mengen sind nach netzbedingter Abregelung gemessen und enthalten keinen Eigenverbrauch.</p>
+    <p><strong>Stundenwerte.</strong> SMARD-Daten der Bundesnetzagentur (Realisierte Erzeugung, Netzlast, Day-Ahead-Preis DE/LU) für alle 8.760 Stunden 2025. Die Auswertung nach Windanteil zeigt einen Zusammenhang, keinen isolierten Kausaleffekt.</p>
+    <p><strong>Kostenvergleich.</strong> Die Formel des Rechners (Annuitätenmethode, reale Werte) reproduziert mit den ISE-Parametern die ISE-Spannen für Wind an Land und auf See. Für Kernkraft ergibt sie bei gleichbleibender Auslastung niedrigere Werte als das ISE, weil das ISE eine bis 2045 sinkende Auslastung unterstellt. Systemkosten stammen aus OECD-NEA (2012), Tabelle ES.2 für Deutschland, umgerechnet mit dem dort genannten Kurs von 1,30 USD/€ und nicht inflationsbereinigt. Sie beruhen auf älteren Kostendaten und sind als Größenordnung zu verstehen.</p>
+    <p><strong>Datenschutz.</strong> Aus dem Register wurden keine Betreiber-, Namens-, Adress- oder Flurstücksfelder übernommen. Punkte auf der Karte zeigen nur Anlagen ab 100 kW; ihre Koordinaten sind auf vier Nachkommastellen gerundet. Die MaStR-Nummern der Einheiten sind nicht Teil der ausgelieferten Daten.</p>
+    <p><strong>Widersprüche zwischen Quellen.</strong> Die Zahlen für Ende 2025 unterscheiden sich je nach Quelle leicht: WindGuard nennt 29.190 Anlagen und 68.177 MW an Land (später revidiert auf 29.100 und 68.090 MW), die Fachagentur Wind und Solar 29.226 Anlagen und 68.067 MW, UBA/AGEE-Stat 68.145 MW. Auf See nennt WindGuard 9.740 MW mit Netzeinspeisung, UBA/AGEE-Stat 9.733 MW, die Bundesnetzagentur in ihrer Erstschätzung 9,5 GW. Die Unterschiede entstehen durch Stichtage, Nachmeldungen im Register und die Frage, ob Anlagen ab Errichtung oder ab erster Einspeisung zählen. Die Seite nutzt für den Bestand durchgehend das Register mit Stand 21.09.2026 und für Jahreswerte UBA/AGEE-Stat.</p>
+  </div>
+  <div class="prose" id="lizenzen" style="margin-top:32px">
+    <h2>Lizenzen und Kartenquellen</h2>
+    <ul>
+{{LIZENZ_ITEMS}}
+    </ul>
+  </div>
+</main>
+<footer class="site"><div class="wide"><p><a href="index.html">Zurück zur Präsentation</a></p></div></footer>
+<script src="assets/js/app.js"></script>
+<script>
+(function(){var f=document.getElementById('qf'),rows=[].slice.call(document.querySelectorAll('#qt tbody tr'));
+f.addEventListener('input',function(){var q=f.value.toLowerCase();rows.forEach(function(r){r.style.display=r.textContent.toLowerCase().indexOf(q)>=0?'':'none';});});})();
+</script>
+<div class="tooltip" id="tooltip"></div>
+</body>
+</html>

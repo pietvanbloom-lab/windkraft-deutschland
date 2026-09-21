@@ -1,0 +1,343 @@
+Landkreis,anzahl,leistung_mw
+Nordfriesland,1006,2617.0
+Dithmarschen,900,2391.7
+Uckermark,659,1751.1
+Aurich,627,1096.2
+Prignitz,553,1223.3
+Emsland,528,1429.8
+Cuxhaven,526,809.8
+Schleswig-Flensburg,522,1390.5
+Paderborn,519,1428.1
+Teltow-Fläming,419,905.0
+Vorpommern-Greifswald,412,783.9
+Diepholz,405,1007.4
+Börde,402,730.3
+Salzlandkreis,374,737.2
+Rostock,362,903.4
+Höxter,352,804.5
+Stendal,346,958.4
+Ostholstein,345,959.4
+Ostprignitz-Ruppin,341,579.2
+Ludwigslust-Parchim,338,923.6
+Borken,336,862.0
+Dahme-Spreewald,321,804.0
+Elbe-Elster,319,636.2
+Märkisch-Oderland,311,806.5
+Vorpommern-Rügen,309,562.2
+Mecklenburgische Seenplatte,308,790.4
+Steinburg,298,869.7
+Steinfurt,295,675.4
+Rhein-Hunsrück-Kreis,293,785.8
+Rendsburg-Eckernförde,282,977.8
+Eifelkreis Bitburg-Prüm,271,506.6
+Region Hannover,261,521.1
+Vogelsbergkreis,260,556.7
+Anhalt-Bitterfeld,246,528.7
+Cloppenburg,246,444.5
+Saalekreis,241,485.2
+Soest,235,397.0
+Stade,230,544.0
+Warendorf,229,605.1
+Rotenburg (Wümme),229,590.7
+Mansfeld-Südharz,226,415.5
+Potsdam-Mittelmark,220,505.5
+Osnabrück,218,581.5
+Burgenlandkreis,217,560.9
+Kleve,216,463.5
+Nienburg (Weser),211,437.3
+Düren,209,592.2
+Wesermarsch,206,498.2
+Friesland,201,370.2
+Mittelsachsen,197,285.1
+Oder-Spree,193,528.4
+Wittmund,187,368.5
+Nordwestmecklenburg,182,395.6
+Altmarkkreis Salzwedel,181,391.9
+Oberspreewald-Lausitz,176,495.1
+Waldeck-Frankenberg,176,410.5
+Uelzen,170,524.6
+Heidekreis,168,342.7
+Havelland,165,299.2
+Alzey-Worms,165,495.0
+Barnim,164,418.9
+Jerichower Land,156,308.8
+Main-Tauber-Kreis,155,304.4
+Wittenberg,149,371.0
+Coesfeld,143,416.0
+Kassel,136,286.5
+Lippe,136,331.7
+Euskirchen,134,303.4
+Heinsberg,131,329.2
+Görlitz,126,210.1
+Segeberg,125,494.2
+Wolfenbüttel,123,449.0
+Schwäbisch Hall,122,360.8
+Spree-Neiße,119,367.8
+Hochsauerlandkreis,118,379.3
+Hof,117,245.6
+Main-Kinzig-Kreis,116,302.2
+Leer,115,229.4
+Lüneburg,113,263.7
+Sömmerda,112,315.1
+Gifhorn,111,324.2
+Oldenburg,110,303.5
+Rhein-Kreis Neuss,109,330.6
+Peine,108,311.0
+Unstrut-Hainich-Kreis,105,227.3
+Leipzig,103,170.0
+Städteregion Aachen,103,260.3
+Verden,103,236.7
+Grafschaft Bentheim,101,254.9
+Harz,100,186.8
+Westerwaldkreis,100,175.8
+Celle,99,164.3
+Bautzen,99,140.9
+Trier-Saarburg,98,247.6
+Marburg-Biedenkopf,98,261.9
+Nordsachsen,98,115.3
+Donnersbergkreis,98,305.9
+Kyffhäuserkreis,96,221.0
+Vulkaneifel,92,221.3
+Gotha,90,240.4
+Cochem-Zell,89,190.3
+Minden-Lübbecke,89,128.7
+Recklinghausen,88,264.2
+Ansbach,87,186.2
+Hildesheim,86,184.0
+Oberhavel,85,153.1
+St. Wendel,85,205.3
+Emden,84,193.5
+Hersfeld-Rotenburg,83,258.5
+Ostalbkreis,81,207.0
+Osterholz,81,139.2
+Wartburgkreis,80,164.0
+Meißen,80,194.8
+Hameln-Pyrmont,78,169.1
+Würzburg,78,190.9
+Bernkastel-Wittlich,77,270.0
+Lüchow-Dannenberg,77,143.0
+Harburg,76,196.2
+Birkenfeld,76,171.9
+Merzig-Wadern,75,203.1
+Vechta,74,201.9
+Lahn-Dill-Kreis,73,171.1
+Erzgebirgskreis,73,92.6
+Rhein-Erft-Kreis,72,222.5
+Neumarkt i.d. OPf.,69,164.1
+Bad Kreuznach,68,174.9
+Kusel,67,183.0
+Hamburg,67,121.7
+Neustadt a.d. Aisch-Bad Windsheim,66,170.1
+Salzgitter,66,211.9
+Saale-Holzland-Kreis,65,140.1
+Bremen,65,120.2
+Zwickau,64,171.7
+Altenburger Land,64,112.4
+Weimarer Land,64,138.4
+Wesel,64,126.1
+Herzogtum Lauenburg,64,155.6
+Mainz-Bingen,62,119.3
+Göttingen,62,111.6
+Weißenburg-Gunzenhausen,57,106.2
+Northeim,56,145.4
+Göppingen,56,121.4
+Eichstätt,53,125.2
+Heidenheim,52,145.8
+Bayreuth,52,131.5
+Ortenaukreis,52,148.5
+Unna,52,68.7
+Helmstedt,52,214.0
+Neckar-Odenwald-Kreis,51,157.0
+Südwestpfalz,50,122.2
+Viersen,50,135.9
+Schweinfurt,48,106.0
+Gütersloh,48,96.4
+Sächsische Schweiz-Osterzgebirge,48,44.5
+Bad Kissingen,46,127.5
+Main-Spessart,45,94.0
+Schwalm-Eder-Kreis,44,97.0
+Eichsfeld,44,84.0
+Ammerland,43,56.1
+Limburg-Weilburg,42,99.8
+Kaiserslautern,42,105.3
+Schaumburg,41,43.3
+Potsdam,41,97.8
+Stormarn,40,89.1
+Märkischer Kreis,40,85.0
+Siegen-Wittgenstein,40,92.6
+Werra-Meißner-Kreis,39,103.5
+Saale-Orla-Kreis,38,61.1
+Wilhelmshaven,38,91.4
+Münster,38,83.4
+Mayen-Koblenz,37,100.1
+Holzminden,37,49.5
+Alb-Donau-Kreis,36,63.4
+Erfurt,35,46.6
+Goslar,35,116.8
+Ostallgäu,34,54.4
+Bamberg,34,83.7
+Plön,32,37.4
+Kulmbach,32,67.3
+Greiz,32,54.9
+Cottbus,32,64.0
+Nordhausen,32,80.7
+Neunkirchen,31,75.0
+Wetteraukreis,30,45.8
+Germersheim,29,86.8
+Wunsiedel i. Fichtelgebirge,29,61.3
+Amberg-Sulzbach,28,66.0
+Heilbronn,26,71.2
+Rheingau-Taunus-Kreis,26,62.3
+Olpe,25,68.1
+Flensburg,25,73.2
+Rhön-Grabfeld,25,71.2
+Rottweil,24,38.2
+Fulda,24,65.2
+Reutlingen,24,95.5
+Oberallgäu,22,29.2
+Hamm,22,50.9
+Emmendingen,22,41.0
+Calw,21,57.2
+Bremerhaven,21,67.1
+Fürth,21,51.9
+Vogtlandkreis,21,35.0
+Hohenlohekreis,20,55.6
+Gießen,20,49.4
+Freudenstadt,20,54.2
+Oberbergischer Kreis,19,19.9
+Odenwaldkreis,19,56.8
+Rhein-Pfalz-Kreis,19,40.1
+Sigmaringen,19,57.3
+Herford,19,21.4
+Tirschenreuth,18,31.8
+Breisgau-Hochschwarzwald,18,27.3
+Saarlouis,17,51.6
+Lübeck,17,14.7
+Tuttlingen,17,40.8
+Hagen,17,44.9
+Haßberge,17,41.2
+Südliche Weinstraße,17,40.4
+Hochtaunuskreis,17,52.1
+Kronach,17,27.4
+Darmstadt-Dieburg,17,25.4
+Mönchengladbach,16,35.3
+Erlangen-Höchstadt,16,40.5
+Regensburg,16,30.3
+Pfaffenhofen a.d. Ilm,16,41.0
+Pinneberg,16,45.9
+Kitzingen,16,27.7
+Nürnberger Land,15,42.9
+Bergstraße,15,48.8
+Bad Dürkheim,14,30.0
+Krefeld,14,16.1
+Miltenberg,14,30.1
+Ravensburg,14,65.5
+Rhein-Lahn-Kreis,13,9.8
+Aichach-Friedberg,13,27.6
+Erding,13,0.1
+Frankfurt (Oder),13,21.6
+Schwerin,13,19.5
+Dillingen a.d. Donau,13,27.2
+Donau-Ries,12,46.1
+Unterallgäu,12,6.6
+Schwarzwald-Baar-Kreis,12,28.0
+Coburg,12,45.0
+Traunstein,12,17.2
+Schwandorf,12,30.0
+Enzkreis,12,33.0
+Lörrach,11,26.9
+Landshut,11,14.5
+München,11,16.2
+Landsberg am Lech,11,32.7
+Oldenburg (Oldb),10,22.4
+Ennepe-Ruhr-Kreis,10,9.2
+Rems-Murr-Kreis,10,21.7
+Chemnitz,10,13.1
+Roth,10,21.5
+Ulm,9,18.0
+Wolfsburg,9,5.2
+Saarpfalz-Kreis,9,16.0
+Ahrweiler,9,13.2
+Mainz,9,22.1
+Cham,9,0.8
+Passau,9,0.6
+Augsburg,9,16.7
+Dachau,9,20.5
+Ludwigsburg,8,2.5
+Halle (Saale),8,13.0
+Günzburg,8,7.2
+Dortmund,8,16.4
+Rottal-Inn,8,2.2
+Neustadt a.d. Waldnaab,8,10.7
+Biberach,8,3.7
+Berlin,8,16.6
+Worms,8,22.5
+Wuppertal,8,9.4
+Altenkirchen (Westerwald),8,19.3
+Bottrop,8,17.8
+Ilm-Kreis,8,6.4
+Regionalverband Saarbrücken,8,27.8
+Köln,7,16.6
+Ebersberg,7,6.6
+Freyung-Grafenau,7,0.2
+Hildburghausen,7,14.5
+Bielefeld,7,15.3
+Kelheim,6,9.2
+Dessau-Roßlau,6,10.2
+Gera,6,10.7
+Saalfeld-Rudolstadt,6,10.4
+Dingolfing-Landau,6,1.5
+Magdeburg,6,15.8
+Zollernalbkreis,6,6.0
+Mettmann,6,7.2
+Braunschweig,5,7.1
+Karlsruhe,5,5.7
+Neuburg-Schrobenhausen,5,5.9
+Esslingen,5,2.3
+Delmenhorst,5,8.2
+Lichtenfels,5,12.5
+Rhein-Sieg-Kreis,5,3.2
+Freising,5,17.3
+Starnberg,5,12.0
+Straubing-Bogen,5,11.4
+Aschaffenburg,4,0.0
+Konstanz,4,9.9
+Waldshut,4,0.0
+Freiburg im Breisgau,4,18.3
+Regen,3,0.0
+Neu-Ulm,3,2.0
+Fürstenfeldbruck,3,6.1
+Bad Tölz-Wolfratshausen,2,0.0
+Deggendorf,2,0.0
+Rheinisch-Bergischer Kreis,2,0.3
+Weilheim-Schongau,2,0.6
+Pirmasens,2,6.6
+Remscheid,2,1.5
+Dresden,2,0.6
+Rhein-Neckar-Kreis,2,0.0
+Neuwied,2,0.0
+Mühldorf a. Inn,2,0.0
+Miesbach,2,5.6
+Nürnberg,2,0.0
+Gelsenkirchen,2,4.6
+Tübingen,2,0.0
+Schmalkalden-Meiningen,2,0.6
+Rosenheim,2,5.6
+Koblenz,2,0.0
+Pforzheim,1,0.0
+Kiel,1,0.1
+Sonneberg,1,0.0
+Oberhausen,1,0.0
+Offenbach,1,0.0
+Stuttgart,1,0.0
+Baden-Baden,1,0.0
+Bodenseekreis,1,0.0
+Kaufbeuren,1,0.0
+Jena,1,0.0
+Duisburg,1,2.3
+Schwabach,1,0.0
+Böblingen,1,0.0
+Rastatt,1,0.0
+Forchheim,1,1.5
+Essen,1,0.0
+Mannheim,1,0.0

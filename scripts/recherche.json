@@ -1,0 +1,1428 @@
+{
+ "kennzahlen": [
+  {
+   "id": "agee_on_twh",
+   "kennzahl": "Bruttostromerzeugung Wind an Land 2025",
+   "wert": 107.225,
+   "einheit": "TWh",
+   "stichtag": "2025",
+   "quelle": "UBA/AGEE-Stat, Zeitreihen zur Entwicklung der erneuerbaren Energien in Deutschland (Stand Februar 2026)",
+   "url": "https://www.umweltbundesamt.de/system/files/document/zeitreihen-zur-entwicklung-der-erneuerbaren-energien-in-deutschland-excel_uba_deu_0_0.xlsx_0.xlsx",
+   "fundstelle": "Blatt „3“, Zeile „Windenergie an Land“, Spalte 2025: 107.225 GWh",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "agee_off_twh",
+   "kennzahl": "Bruttostromerzeugung Wind auf See 2025",
+   "wert": 26.458,
+   "einheit": "TWh",
+   "stichtag": "2025",
+   "quelle": "UBA/AGEE-Stat, Zeitreihen zur Entwicklung der erneuerbaren Energien in Deutschland (Stand Februar 2026)",
+   "url": "https://www.umweltbundesamt.de/system/files/document/zeitreihen-zur-entwicklung-der-erneuerbaren-energien-in-deutschland-excel_uba_deu_0_0.xlsx_0.xlsx",
+   "fundstelle": "Blatt „3“, Zeile „Windenergie auf See“: 26.458 GWh",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "agee_wind_twh",
+   "kennzahl": "Bruttostromerzeugung Wind gesamt 2025",
+   "wert": 133.683,
+   "einheit": "TWh",
+   "stichtag": "2025",
+   "quelle": "UBA, Erneuerbare Energien in Deutschland – Daten zur Entwicklung im Jahr 2025 (März 2026)",
+   "url": "https://www.umweltbundesamt.de/system/files/medien/479/publikationen/2026-03/UBA_Erneuerbare%20Energien%20in%20Deutschland%202025.pdf",
+   "fundstelle": "S. 9: „Strommenge von 133,7 TWh“",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "agee_wind_2024_twh",
+   "kennzahl": "Bruttostromerzeugung Wind gesamt 2024",
+   "wert": 139.813,
+   "einheit": "TWh",
+   "stichtag": "2024",
+   "quelle": "UBA/AGEE-Stat, Zeitreihen zur Entwicklung der erneuerbaren Energien in Deutschland (Stand Februar 2026)",
+   "url": "https://www.umweltbundesamt.de/system/files/document/zeitreihen-zur-entwicklung-der-erneuerbaren-energien-in-deutschland-excel_uba_deu_0_0.xlsx_0.xlsx",
+   "fundstelle": "Blatt „3“, Summe Zeilen Wind an Land und auf See, Spalte 2024",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "agee_on_gw",
+   "kennzahl": "Installierte Leistung Wind an Land, Jahresende 2025",
+   "wert": 68.145,
+   "einheit": "GW",
+   "stichtag": "31.12.2025",
+   "quelle": "UBA/AGEE-Stat, Zeitreihen zur Entwicklung der erneuerbaren Energien in Deutschland (Stand Februar 2026)",
+   "url": "https://www.umweltbundesamt.de/system/files/document/zeitreihen-zur-entwicklung-der-erneuerbaren-energien-in-deutschland-excel_uba_deu_0_0.xlsx_0.xlsx",
+   "fundstelle": "Blatt „4“, Zeile „Windenergie an Land“: 68.145 MW",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "agee_off_gw",
+   "kennzahl": "Installierte Leistung Wind auf See (mit Netzanschluss), Jahresende 2025",
+   "wert": 9.733,
+   "einheit": "GW",
+   "stichtag": "31.12.2025",
+   "quelle": "UBA/AGEE-Stat, Zeitreihen zur Entwicklung der erneuerbaren Energien in Deutschland (Stand Februar 2026)",
+   "url": "https://www.umweltbundesamt.de/system/files/document/zeitreihen-zur-entwicklung-der-erneuerbaren-energien-in-deutschland-excel_uba_deu_0_0.xlsx_0.xlsx",
+   "fundstelle": "Blatt „4“, Zeile „Windenergie auf See“: 9.733 MW",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "agee_on_anteil",
+   "kennzahl": "Anteil Wind an Land am Bruttostromverbrauch 2025",
+   "wert": 20.4,
+   "einheit": "%",
+   "stichtag": "2025",
+   "quelle": "UBA/AGEE-Stat, Zeitreihen zur Entwicklung der erneuerbaren Energien in Deutschland (Stand Februar 2026)",
+   "url": "https://www.umweltbundesamt.de/system/files/document/zeitreihen-zur-entwicklung-der-erneuerbaren-energien-in-deutschland-excel_uba_deu_0_0.xlsx_0.xlsx",
+   "fundstelle": "Blatt „2025“, Anteil am Bruttostromverbrauch",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "agee_off_anteil",
+   "kennzahl": "Anteil Wind auf See am Bruttostromverbrauch 2025",
+   "wert": 5.0,
+   "einheit": "%",
+   "stichtag": "2025",
+   "quelle": "UBA/AGEE-Stat, Zeitreihen zur Entwicklung der erneuerbaren Energien in Deutschland (Stand Februar 2026)",
+   "url": "https://www.umweltbundesamt.de/system/files/document/zeitreihen-zur-entwicklung-der-erneuerbaren-energien-in-deutschland-excel_uba_deu_0_0.xlsx_0.xlsx",
+   "fundstelle": "Blatt „2025“, Anteil am Bruttostromverbrauch",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "agee_wind_anteil",
+   "kennzahl": "Anteil Windenergie am Bruttostromverbrauch 2025",
+   "wert": 25.4,
+   "einheit": "%",
+   "stichtag": "2025",
+   "quelle": "UBA/AGEE-Stat, Zeitreihen zur Entwicklung der erneuerbaren Energien in Deutschland (Stand Februar 2026)",
+   "url": "https://www.umweltbundesamt.de/system/files/document/zeitreihen-zur-entwicklung-der-erneuerbaren-energien-in-deutschland-excel_uba_deu_0_0.xlsx_0.xlsx",
+   "fundstelle": "Summe der beiden Einzelanteile (20,4 % + 5,0 %)",
+   "anmerkung": "AG Energiebilanzen (Jahresbericht 2025, S. 42): „rund 25 %“",
+   "dec": 1
+  },
+  {
+   "id": "agee_bsv",
+   "kennzahl": "Bruttostromverbrauch 2025",
+   "wert": 526.9,
+   "einheit": "TWh",
+   "stichtag": "2025",
+   "quelle": "UBA/AGEE-Stat, Zeitreihen zur Entwicklung der erneuerbaren Energien in Deutschland (Stand Februar 2026)",
+   "url": "https://www.umweltbundesamt.de/system/files/document/zeitreihen-zur-entwicklung-der-erneuerbaren-energien-in-deutschland-excel_uba_deu_0_0.xlsx_0.xlsx",
+   "fundstelle": "Blatt „7“, Zeile „Bruttostromverbrauch“",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "agee_ee_anteil",
+   "kennzahl": "Anteil erneuerbarer Energien am Bruttostromverbrauch 2025",
+   "wert": 55.1,
+   "einheit": "%",
+   "stichtag": "2025",
+   "quelle": "UBA/AGEE-Stat, Zeitreihen zur Entwicklung der erneuerbaren Energien in Deutschland (Stand Februar 2026)",
+   "url": "https://www.umweltbundesamt.de/system/files/document/zeitreihen-zur-entwicklung-der-erneuerbaren-energien-in-deutschland-excel_uba_deu_0_0.xlsx_0.xlsx",
+   "fundstelle": "Blatt „2“, Zeile „am Bruttostromverbrauch“",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "ise_vlh_on",
+   "kennzahl": "Volllaststunden Wind an Land 2025",
+   "wert": 1639,
+   "einheit": "h",
+   "stichtag": "2025",
+   "quelle": "Fraunhofer ISE, Stromerzeugung in Deutschland im Jahr 2025 (ausführliche Daten)",
+   "url": "https://www.ise.fraunhofer.de/content/dam/ise/de/documents/presseinformationen/2026/Stromerzeugung_2025_ausfuehrliche%20Daten.pdf",
+   "fundstelle": "S. 49, Grafik „Volllaststunden“",
+   "anmerkung": "Methode im Dokument nicht erläutert; Mittel 2015–2025: 1.759 h",
+   "dec": 0
+  },
+  {
+   "id": "ise_vlh_off",
+   "kennzahl": "Volllaststunden Wind auf See 2025",
+   "wert": 2776,
+   "einheit": "h",
+   "stichtag": "2025",
+   "quelle": "Fraunhofer ISE, Stromerzeugung in Deutschland im Jahr 2025 (ausführliche Daten)",
+   "url": "https://www.ise.fraunhofer.de/content/dam/ise/de/documents/presseinformationen/2026/Stromerzeugung_2025_ausfuehrliche%20Daten.pdf",
+   "fundstelle": "S. 49, Grafik „Volllaststunden“",
+   "anmerkung": "Mittel 2015–2025: 3.197 h",
+   "dec": 0
+  },
+  {
+   "id": "agee_h1_2026_twh",
+   "kennzahl": "Stromerzeugung Wind 1. Halbjahr 2026",
+   "wert": 68.7,
+   "einheit": "TWh",
+   "stichtag": "Jan–Jun 2026",
+   "quelle": "UBA/AGEE-Stat, Quartalsbericht 2. Quartal 2026",
+   "url": "https://www.umweltbundesamt.de/system/files/document/AGEE-Stat_Quartalsbericht_2026-Q2_FINAL_korr.pdf",
+   "fundstelle": "S. 7, Tabelle: „Windenergie (Gesamt) 61,3 68,7 12%“",
+   "anmerkung": "vorläufig",
+   "dec": 1
+  },
+  {
+   "id": "agee_h1_2025_twh",
+   "kennzahl": "Stromerzeugung Wind 1. Halbjahr 2025",
+   "wert": 61.3,
+   "einheit": "TWh",
+   "stichtag": "Jan–Jun 2025",
+   "quelle": "UBA/AGEE-Stat, Quartalsbericht 2. Quartal 2026",
+   "url": "https://www.umweltbundesamt.de/system/files/document/AGEE-Stat_Quartalsbericht_2026-Q2_FINAL_korr.pdf",
+   "fundstelle": "S. 7, Tabelle",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "wg_on_n",
+   "kennzahl": "Windenergieanlagen an Land, Bestand Ende 2025 (WindGuard)",
+   "wert": 29190,
+   "einheit": "WEA",
+   "stichtag": "31.12.2025",
+   "quelle": "Deutsche WindGuard, Status des Windenergieausbaus an Land – Jahr 2025",
+   "url": "https://www.windguard.de/jahr-2025.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2025/Jahr/Status%20des%20Windenergieausbaus%20an%20Land_Jahr%202025.pdf",
+   "fundstelle": "S. 3, Tabelle „Status des Windenergieausbaus an Land“",
+   "anmerkung": "später revidiert auf 29.100 WEA / 68.090 MW (Halbjahresbericht 2026, S. 3); Erfassung ab 100 kW",
+   "dec": null
+  },
+  {
+   "id": "wg_on_gw",
+   "kennzahl": "Leistung an Land, Bestand Ende 2025 (WindGuard)",
+   "wert": 68.177,
+   "einheit": "GW",
+   "stichtag": "31.12.2025",
+   "quelle": "Deutsche WindGuard, Status des Windenergieausbaus an Land – Jahr 2025",
+   "url": "https://www.windguard.de/jahr-2025.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2025/Jahr/Status%20des%20Windenergieausbaus%20an%20Land_Jahr%202025.pdf",
+   "fundstelle": "S. 3: „68.177 MW 29.190 WEA“",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "wg_zubau_n",
+   "kennzahl": "Brutto-Zubau an Land 2025",
+   "wert": 965,
+   "einheit": "WEA",
+   "stichtag": "2025",
+   "quelle": "Deutsche WindGuard, Status des Windenergieausbaus an Land – Jahr 2025",
+   "url": "https://www.windguard.de/jahr-2025.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2025/Jahr/Status%20des%20Windenergieausbaus%20an%20Land_Jahr%202025.pdf",
+   "fundstelle": "S. 3: „Brutto-Zubau 5.269 MW 965 WEA“",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "wg_zubau_gw",
+   "kennzahl": "Brutto-Zubau an Land 2025 (Leistung)",
+   "wert": 5.269,
+   "einheit": "GW",
+   "stichtag": "2025",
+   "quelle": "Deutsche WindGuard, Status des Windenergieausbaus an Land – Jahr 2025",
+   "url": "https://www.windguard.de/jahr-2025.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2025/Jahr/Status%20des%20Windenergieausbaus%20an%20Land_Jahr%202025.pdf",
+   "fundstelle": "S. 3",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "wg_stilllegung_n",
+   "kennzahl": "Stilllegungen an Land 2025",
+   "wert": 452,
+   "einheit": "WEA",
+   "stichtag": "2025",
+   "quelle": "Deutsche WindGuard, Status des Windenergieausbaus an Land – Jahr 2025",
+   "url": "https://www.windguard.de/jahr-2025.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2025/Jahr/Status%20des%20Windenergieausbaus%20an%20Land_Jahr%202025.pdf",
+   "fundstelle": "S. 3: „Stilllegung 633 MW 452 WEA“",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "wg_netto_gw",
+   "kennzahl": "Netto-Zubau an Land 2025",
+   "wert": 4.636,
+   "einheit": "GW",
+   "stichtag": "2025",
+   "quelle": "Deutsche WindGuard, Status des Windenergieausbaus an Land – Jahr 2025",
+   "url": "https://www.windguard.de/jahr-2025.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2025/Jahr/Status%20des%20Windenergieausbaus%20an%20Land_Jahr%202025.pdf",
+   "fundstelle": "S. 3: „Netto-Zubau 4.636 MW 513 WEA“",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "wg_neu_kw",
+   "kennzahl": "Durchschnittliche Nennleistung neuer Anlagen an Land 2025",
+   "wert": 5.46,
+   "einheit": "MW",
+   "stichtag": "2025",
+   "quelle": "Deutsche WindGuard, Status des Windenergieausbaus an Land – Jahr 2025",
+   "url": "https://www.windguard.de/jahr-2025.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2025/Jahr/Status%20des%20Windenergieausbaus%20an%20Land_Jahr%202025.pdf",
+   "fundstelle": "S. 6: „Nennleistung von 5.460 kW“",
+   "anmerkung": "",
+   "dec": 2
+  },
+  {
+   "id": "wg_neu_hoehe",
+   "kennzahl": "Durchschnittliche Gesamthöhe neuer Anlagen an Land 2025",
+   "wert": 222,
+   "einheit": "m",
+   "stichtag": "2025",
+   "quelle": "Deutsche WindGuard, Status des Windenergieausbaus an Land – Jahr 2025",
+   "url": "https://www.windguard.de/jahr-2025.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2025/Jahr/Status%20des%20Windenergieausbaus%20an%20Land_Jahr%202025.pdf",
+   "fundstelle": "S. 6: „Gesamthöhe von 222 m“",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "wg_neu_nabe",
+   "kennzahl": "Durchschnittliche Nabenhöhe neuer Anlagen an Land 2025",
+   "wert": 146,
+   "einheit": "m",
+   "stichtag": "2025",
+   "quelle": "Deutsche WindGuard, Status des Windenergieausbaus an Land – Jahr 2025",
+   "url": "https://www.windguard.de/jahr-2025.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2025/Jahr/Status%20des%20Windenergieausbaus%20an%20Land_Jahr%202025.pdf",
+   "fundstelle": "S. 6: „Nabenhöhe liegt im Mittel bei 146 m“",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "wg_neu_rotor",
+   "kennzahl": "Durchschnittlicher Rotordurchmesser neuer Anlagen an Land 2025",
+   "wert": 151,
+   "einheit": "m",
+   "stichtag": "2025",
+   "quelle": "Deutsche WindGuard, Status des Windenergieausbaus an Land – Jahr 2025",
+   "url": "https://www.windguard.de/jahr-2025.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2025/Jahr/Status%20des%20Windenergieausbaus%20an%20Land_Jahr%202025.pdf",
+   "fundstelle": "S. 6: „Rotordurchmesser 151 m“",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "wg_hz_nordex",
+   "kennzahl": "Anteil Nordex am Leistungszubau an Land 2025",
+   "wert": 32,
+   "einheit": "%",
+   "stichtag": "2025",
+   "quelle": "Deutsche WindGuard, Status des Windenergieausbaus an Land – Jahr 2025",
+   "url": "https://www.windguard.de/jahr-2025.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2025/Jahr/Status%20des%20Windenergieausbaus%20an%20Land_Jahr%202025.pdf",
+   "fundstelle": "S. 7, Grafik „Marktanteile der Hersteller“",
+   "anmerkung": "Vestas 30 %, Enercon 29 %",
+   "dec": null
+  },
+  {
+   "id": "wg_h1_on_gw",
+   "kennzahl": "Leistung an Land, Bestand 30.06.2026 (WindGuard)",
+   "wert": 70.018,
+   "einheit": "GW",
+   "stichtag": "30.06.2026",
+   "quelle": "Deutsche WindGuard, Status des Windenergieausbaus an Land – Erstes Halbjahr 2026",
+   "url": "https://www.windguard.de/id-1-halbjahr-2026.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2026/Halbjahr/Status%20des%20Windenergieausbaus%20an%20Land_Halbjahr%202026.pdf",
+   "fundstelle": "S. 3: „70.018 MW 29.216 WEA“",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "wg_h1_on_n",
+   "kennzahl": "Windenergieanlagen an Land, Bestand 30.06.2026 (WindGuard)",
+   "wert": 29216,
+   "einheit": "WEA",
+   "stichtag": "30.06.2026",
+   "quelle": "Deutsche WindGuard, Status des Windenergieausbaus an Land – Erstes Halbjahr 2026",
+   "url": "https://www.windguard.de/id-1-halbjahr-2026.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2026/Halbjahr/Status%20des%20Windenergieausbaus%20an%20Land_Halbjahr%202026.pdf",
+   "fundstelle": "S. 3",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "wg_off_n",
+   "kennzahl": "Offshore-Anlagen mit Netzeinspeisung Ende 2025",
+   "wert": 1680,
+   "einheit": "OWEA",
+   "stichtag": "31.12.2025",
+   "quelle": "Deutsche WindGuard i. A. von BWE, BWO u. a., Status des Offshore-Windenergieausbaus in Deutschland – Jahr 2025",
+   "url": "https://www.windguard.de/jahr-2025.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2025/Jahr/Status%20des%20Offshore-Windenergieausbaus_Jahr%202025.pdf",
+   "fundstelle": "S. 3: „9.740 MW 1.680 OWEA“",
+   "anmerkung": "zusätzlich 72 errichtete Anlagen ohne Einspeisung",
+   "dec": null
+  },
+  {
+   "id": "wg_off_gw",
+   "kennzahl": "Offshore-Leistung mit Netzeinspeisung Ende 2025",
+   "wert": 9.74,
+   "einheit": "GW",
+   "stichtag": "31.12.2025",
+   "quelle": "Deutsche WindGuard i. A. von BWE, BWO u. a., Status des Offshore-Windenergieausbaus in Deutschland – Jahr 2025",
+   "url": "https://www.windguard.de/jahr-2025.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2025/Jahr/Status%20des%20Offshore-Windenergieausbaus_Jahr%202025.pdf",
+   "fundstelle": "S. 3",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "wg_h1_off_gw",
+   "kennzahl": "Offshore-Leistung mit Netzeinspeisung 30.06.2026",
+   "wert": 10.818,
+   "einheit": "GW",
+   "stichtag": "30.06.2026",
+   "quelle": "Deutsche WindGuard i. A. von BWE, BWO u. a., Status des Offshore-Windenergieausbaus – Erstes Halbjahr 2026",
+   "url": "https://www.windguard.de/id-1-halbjahr-2026.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2026/Halbjahr/Status%20des%20Offshore-Windenergieausbaus_Halbjahr%202026.pdf",
+   "fundstelle": "S. 3: „10.818 MW 1.764 OWEA“",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "wg_off_neu_kw",
+   "kennzahl": "Durchschnittliche Leistung neuer Offshore-Anlagen 2025",
+   "wert": 12.644,
+   "einheit": "MW",
+   "stichtag": "2025",
+   "quelle": "Deutsche WindGuard i. A. von BWE, BWO u. a., Status des Offshore-Windenergieausbaus in Deutschland – Jahr 2025",
+   "url": "https://www.windguard.de/jahr-2025.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2025/Jahr/Status%20des%20Offshore-Windenergieausbaus_Jahr%202025.pdf",
+   "fundstelle": "S. 7, Tabelle „Durchschnittliche Anlagenkonfiguration“: 12.644 kW",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "wg_genehm_gw",
+   "kennzahl": "Neu genehmigte Leistung an Land 2025",
+   "wert": 20.48,
+   "einheit": "GW",
+   "stichtag": "2025",
+   "quelle": "Deutsche WindGuard, Status des Windenergieausbaus an Land – Jahr 2025",
+   "url": "https://www.windguard.de/jahr-2025.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2025/Jahr/Status%20des%20Windenergieausbaus%20an%20Land_Jahr%202025.pdf",
+   "fundstelle": "S. 12, Tabelle „Jährliche Genehmigungsmengen“: 20.480 MW, 3.265 WEA",
+   "anmerkung": "revidiert 20.640 MW (Halbjahresbericht 2026); FA Wind und Solar: 20.765 MW",
+   "dec": 1
+  },
+  {
+   "id": "fa_genehmigt_offen_gw",
+   "kennzahl": "Genehmigt, aber noch nicht in Betrieb (an Land), Anfang 2026",
+   "wert": 40.1,
+   "einheit": "GW",
+   "stichtag": "Anfang 2026",
+   "quelle": "FA Wind und Solar i. A. BWE/VDMA, Status des Windenergieausbaus an Land – Jahr 2025",
+   "url": "https://www.vdma.eu/documents/d/group-34568/vdma-ps_bwe_factsheet_status-windenergieausbau-an-land-2025_de",
+   "fundstelle": "S. 19, Kap. 5: ca. 6.630 WEA / 40.100 MW",
+   "anmerkung": "davon mit gültigem Zuschlag ca. 25,2 GW",
+   "dec": 1
+  },
+  {
+   "id": "zuschlag_2025_gw",
+   "kennzahl": "Bezuschlagte Leistung Wind an Land 2025 (4 Runden)",
+   "wert": 14.445,
+   "einheit": "GW",
+   "stichtag": "2025",
+   "quelle": "Bundesnetzagentur, Statistiken Windenergieanlagen an Land – Ausschreibungen (Stand 14.09.2026)",
+   "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Ausschreibungen/_DL/Statistiken/Statistik_Onshore.xlsx?__blob=publicationFile&v=18",
+   "fundstelle": "Blatt „Übersicht“, Zeilen 44–47 (Summe bezuschlagte Menge)",
+   "anmerkung": "ohne nachträgliche Zuschläge",
+   "dec": 1
+  },
+  {
+   "id": "zuschlag_2025_ct",
+   "kennzahl": "Mengengewichteter Zuschlagswert Wind an Land 2025",
+   "wert": 6.63,
+   "einheit": "ct/kWh",
+   "stichtag": "2025",
+   "quelle": "Deutsche WindGuard, Status des Windenergieausbaus an Land – Jahr 2025",
+   "url": "https://www.windguard.de/jahr-2025.html?file=files/cto_layout/img/unternehmen/windenergiestatistik/2025/Jahr/Status%20des%20Windenergieausbaus%20an%20Land_Jahr%202025.pdf",
+   "fundstelle": "S. 9, Tabelle „Entwicklung der Zuschlagswerte“",
+   "anmerkung": "aus den Rundenwerten der BNetzA nachgerechnet: 6,631",
+   "dec": 2
+  },
+  {
+   "id": "zuschlag_2508_ct",
+   "kennzahl": "Mengengewichteter Zuschlagswert, Runde 1.8.2026",
+   "wert": 4.79,
+   "einheit": "ct/kWh",
+   "stichtag": "GT 01.08.2026",
+   "quelle": "Bundesnetzagentur, Ergebnisse Gebotstermin 1. August 2026 (veröff. 17.09.2026)",
+   "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Ausschreibungen/Wind_Onshore/GT03082026/start.html",
+   "fundstelle": "Rundenseite: „Zuschlagswert beträgt 4,79 ct/kWh“",
+   "anmerkung": "",
+   "dec": 2
+  },
+  {
+   "id": "zuschlag_2502_ct",
+   "kennzahl": "Mengengewichteter Zuschlagswert, Runde 1.2.2025",
+   "wert": 7.0,
+   "einheit": "ct/kWh",
+   "stichtag": "GT 01.02.2025",
+   "quelle": "Bundesnetzagentur, Beendete Ausschreibungen Wind an Land, Gebotstermin 1. Februar 2025",
+   "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Ausschreibungen/Wind_Onshore/BeendeteAusschreibungen/start.html",
+   "fundstelle": "Rundenseite: „Zuschlagswert beträgt 7,00 ct/kWh“",
+   "anmerkung": "",
+   "dec": 2
+  },
+  {
+   "id": "hoechstwert_2026",
+   "kennzahl": "Höchstwert Ausschreibungen Wind an Land 2026",
+   "wert": 7.25,
+   "einheit": "ct/kWh",
+   "stichtag": "2026",
+   "quelle": "Bundesnetzagentur, Statistiken Windenergieanlagen an Land – Ausschreibungen",
+   "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Ausschreibungen/_DL/Statistiken/Statistik_Onshore.xlsx?__blob=publicationFile&v=18",
+   "fundstelle": "Blatt „Übersicht“, Spalte Höchstwert, Zeilen 48–50",
+   "anmerkung": "2025: 7,35 ct/kWh",
+   "dec": 2
+  },
+  {
+   "id": "offshore_2025_keine_gebote",
+   "kennzahl": "Offshore-Ausschreibung N-10.1 und N-10.2 (2,5 GW), Gebotstermin 1.8.2025",
+   "wert": "keine Gebote",
+   "einheit": "",
+   "stichtag": "01.08.2025",
+   "quelle": "Bundesnetzagentur, Beschlusskammer 6, Ausschreibungen 2025 für zentral voruntersuchte Flächen",
+   "url": "https://www.bundesnetzagentur.de/DE/Beschlusskammern/BK06/BK6_72_Offshore/Ausschr_vorunters_Flaechen/2025/uebersicht_ausschreibungen_2025.html",
+   "fundstelle": "Ergebnisseite: „zum Gebotstermin 01.08.2025 keine Gebote abgegeben“",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "offshore_2026_ausgesetzt",
+   "kennzahl": "Offshore-Ausschreibungen 2026",
+   "wert": "ausgesetzt, auf 2027 verschoben",
+   "einheit": "",
+   "stichtag": "Stand 30.01.2026",
+   "quelle": "Bundesnetzagentur, Beschlusskammer 6, Ausschreibungen für zentral voruntersuchte Flächen",
+   "url": "https://www.bundesnetzagentur.de/DE/Beschlusskammern/BK06/BK6_72_Offshore/Ausschr_vorunters_Flaechen/Ausschr_zentral_vorunters_Flaechen.html",
+   "fundstelle": "„Ausschreibungen im Jahr 2026 - ausgesetzt“",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "ne_bund_2025",
+   "kennzahl": "Nettonetzentgelt Haushalte 2025, Bundesdurchschnitt",
+   "wert": 10.72,
+   "einheit": "ct/kWh",
+   "stichtag": "2025",
+   "quelle": "Bundesnetzagentur/Bundeskartellamt, Monitoringbericht 2025",
+   "url": "https://data.bundesnetzagentur.de/Bundesnetzagentur/SharedDocs/Mediathek/Monitoringberichte/MonitoringberichtEnergie2025.pdf",
+   "fundstelle": "S. 20: „2.500 und 5.000 kWh bei 10,72 ct/kWh“",
+   "anmerkung": "netto, ohne Umlagen, Steuern, Konzessionsabgabe",
+   "dec": 2
+  },
+  {
+   "id": "ne_hh_2025",
+   "kennzahl": "Nettonetzentgelt Haushalte 2025, Hamburg (höchster Landesmittelwert)",
+   "wert": 14.17,
+   "einheit": "ct/kWh",
+   "stichtag": "2025",
+   "quelle": "Bundesnetzagentur/Bundeskartellamt, Monitoringbericht 2025",
+   "url": "https://data.bundesnetzagentur.de/Bundesnetzagentur/SharedDocs/Mediathek/Monitoringberichte/MonitoringberichtEnergie2025.pdf",
+   "fundstelle": "S. 108, Tabelle 25",
+   "anmerkung": "mengengewichteter Mittelwert je Bundesland",
+   "dec": 2
+  },
+  {
+   "id": "ne_hb_2025",
+   "kennzahl": "Nettonetzentgelt Haushalte 2025, Bremen (niedrigster Landesmittelwert)",
+   "wert": 7.96,
+   "einheit": "ct/kWh",
+   "stichtag": "2025",
+   "quelle": "Bundesnetzagentur/Bundeskartellamt, Monitoringbericht 2025",
+   "url": "https://data.bundesnetzagentur.de/Bundesnetzagentur/SharedDocs/Mediathek/Monitoringberichte/MonitoringberichtEnergie2025.pdf",
+   "fundstelle": "S. 108, Tabelle 25",
+   "anmerkung": "",
+   "dec": 2
+  },
+  {
+   "id": "ne_mv_2025",
+   "kennzahl": "Nettonetzentgelt Haushalte 2025, Mecklenburg-Vorpommern",
+   "wert": 9.31,
+   "einheit": "ct/kWh",
+   "stichtag": "2025",
+   "quelle": "Bundesnetzagentur/Bundeskartellamt, Monitoringbericht 2025",
+   "url": "https://data.bundesnetzagentur.de/Bundesnetzagentur/SharedDocs/Mediathek/Monitoringberichte/MonitoringberichtEnergie2025.pdf",
+   "fundstelle": "S. 108, Tabelle 25",
+   "anmerkung": "",
+   "dec": 2
+  },
+  {
+   "id": "ne_bw_2025",
+   "kennzahl": "Nettonetzentgelt Haushalte 2025, Baden-Württemberg",
+   "wert": 11.71,
+   "einheit": "ct/kWh",
+   "stichtag": "2025",
+   "quelle": "Bundesnetzagentur/Bundeskartellamt, Monitoringbericht 2025",
+   "url": "https://data.bundesnetzagentur.de/Bundesnetzagentur/SharedDocs/Mediathek/Monitoringberichte/MonitoringberichtEnergie2025.pdf",
+   "fundstelle": "S. 108, Tabelle 25",
+   "anmerkung": "Spanne im Land 5,92–16,69 ct/kWh",
+   "dec": 2
+  },
+  {
+   "id": "ne_sh_2025",
+   "kennzahl": "Nettonetzentgelt Haushalte 2025, Schleswig-Holstein",
+   "wert": 10.58,
+   "einheit": "ct/kWh",
+   "stichtag": "2025",
+   "quelle": "Bundesnetzagentur/Bundeskartellamt, Monitoringbericht 2025",
+   "url": "https://data.bundesnetzagentur.de/Bundesnetzagentur/SharedDocs/Mediathek/Monitoringberichte/MonitoringberichtEnergie2025.pdf",
+   "fundstelle": "S. 108, Tabelle 25",
+   "anmerkung": "Spanne im Land 6,42–14,17 ct/kWh",
+   "dec": 2
+  },
+  {
+   "id": "waelz_2025_mrd",
+   "kennzahl": "Bundesweit umverteilte Mehrkosten der EE-Integration 2025",
+   "wert": 2.42,
+   "einheit": "Mrd. €",
+   "stichtag": "2025",
+   "quelle": "Übertragungsnetzbetreiber, Datenbasis zum Aufschlag für besondere Netznutzung 2025",
+   "url": "https://www.netztransparenz.de/xspproxy/api/staticfiles/ntp-relaunch/dokumente/erneuerbare%20energien%20und%20umlagen/sonstige-umlagen/-19-stromnev-umlage/datenbasis%20zum%20aufschlag%20f%C3%BCr%20besondere%20netznutzung%202025.pdf.pdf",
+   "fundstelle": "Anlage 1, Summe Spalte „einspeiseseitige Netznutzung gem. BK8-24-001-A“: 2.423.276.000,93 €",
+   "anmerkung": "Festlegung BK8-24-001-A der Bundesnetzagentur",
+   "dec": 2
+  },
+  {
+   "id": "waelz_2025_nb",
+   "kennzahl": "Entlastete Verteilernetzbetreiber 2025",
+   "wert": 178,
+   "einheit": "Netzbetreiber",
+   "stichtag": "2025",
+   "quelle": "Bundesnetzagentur/Bundeskartellamt, Monitoringbericht 2025",
+   "url": "https://data.bundesnetzagentur.de/Bundesnetzagentur/SharedDocs/Mediathek/Monitoringberichte/MonitoringberichtEnergie2025.pdf",
+   "fundstelle": "S. 20: „rd. 2,4 Mrd. Euro bei 178 Verteilernetzbetreibern“",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "waelz_2026_mrd",
+   "kennzahl": "Bundesweit umverteilte Mehrkosten der EE-Integration 2026",
+   "wert": 2.73,
+   "einheit": "Mrd. €",
+   "stichtag": "2026",
+   "quelle": "Bundesnetzagentur, Verteilung von Netzkosten (Stand 20.07.2026)",
+   "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Aktuelles/VerteilungNetzkosten/start.html",
+   "fundstelle": "„in Summe Kosten in Höhe von 2,725 Mrd. Euro“",
+   "anmerkung": "",
+   "dec": 2
+  },
+  {
+   "id": "waelz_2026_nb",
+   "kennzahl": "Entlastete Netzbetreiber 2026",
+   "wert": 238,
+   "einheit": "Netzbetreiber",
+   "stichtag": "2026",
+   "quelle": "Bundesnetzagentur, Verteilung von Netzkosten (Stand 20.07.2026)",
+   "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Aktuelles/VerteilungNetzkosten/start.html",
+   "fundstelle": "„Insgesamt profitieren 238 Netzbetreiber“",
+   "anmerkung": "davon 50 mit Wälzungsbetrag 0",
+   "dec": null
+  },
+  {
+   "id": "ne_shnetz_2024",
+   "kennzahl": "Haushaltsnetzentgelt Schleswig-Holstein Netz AG 2024",
+   "wert": 16.26,
+   "einheit": "ct/kWh",
+   "stichtag": "2024",
+   "quelle": "Bundesnetzagentur, Pressemitteilung vom 18.10.2024 (Verteilung Netzkosten)",
+   "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2024/20241018_Netzkosten.html",
+   "fundstelle": "Tabelle: „Schleswig-Holstein Netz AG | 16,26 | 11,84“",
+   "anmerkung": "3.500 kWh, inkl. Grundpreis und Messstellenbetrieb",
+   "dec": 2
+  },
+  {
+   "id": "ne_shnetz_2025",
+   "kennzahl": "Haushaltsnetzentgelt Schleswig-Holstein Netz AG 2025",
+   "wert": 11.84,
+   "einheit": "ct/kWh",
+   "stichtag": "2025",
+   "quelle": "Bundesnetzagentur, Pressemitteilung vom 18.10.2024 (Verteilung Netzkosten)",
+   "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2024/20241018_Netzkosten.html",
+   "fundstelle": "Tabelle",
+   "anmerkung": "",
+   "dec": 2
+  },
+  {
+   "id": "ne_wemag_2024",
+   "kennzahl": "Haushaltsnetzentgelt WEMAG Netz 2024",
+   "wert": 15.84,
+   "einheit": "ct/kWh",
+   "stichtag": "2024",
+   "quelle": "Bundesnetzagentur, Pressemitteilung vom 18.10.2024 (Verteilung Netzkosten)",
+   "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2024/20241018_Netzkosten.html",
+   "fundstelle": "Tabelle: „WEMAG Netz GmbH | 15,84 | 9,81“",
+   "anmerkung": "",
+   "dec": 2
+  },
+  {
+   "id": "ne_wemag_2025",
+   "kennzahl": "Haushaltsnetzentgelt WEMAG Netz 2025",
+   "wert": 9.81,
+   "einheit": "ct/kWh",
+   "stichtag": "2025",
+   "quelle": "Bundesnetzagentur, Pressemitteilung vom 18.10.2024 (Verteilung Netzkosten)",
+   "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2024/20241018_Netzkosten.html",
+   "fundstelle": "Tabelle",
+   "anmerkung": "",
+   "dec": 2
+  },
+  {
+   "id": "aufschlag_hh_eur",
+   "kennzahl": "Mehrbelastung eines Haushalts durch die bundesweite Umverteilung 2025",
+   "wert": 33,
+   "einheit": "€/Jahr",
+   "stichtag": "2025",
+   "quelle": "Bundesnetzagentur/Bundeskartellamt, Monitoringbericht 2025",
+   "url": "https://data.bundesnetzagentur.de/Bundesnetzagentur/SharedDocs/Mediathek/Monitoringberichte/MonitoringberichtEnergie2025.pdf",
+   "fundstelle": "S. 20: „jährliche Mehrbelastung … in Höhe von ca. 33 Euro“",
+   "anmerkung": "bei 3.500 kWh",
+   "dec": null
+  },
+  {
+   "id": "nem_kosten_2025",
+   "kennzahl": "Kosten des Netzengpassmanagements 2025",
+   "wert": 3.071,
+   "einheit": "Mrd. €",
+   "stichtag": "2025",
+   "quelle": "Bundesnetzagentur | SMARD.de, Netzengpassmanagement Q4 und Gesamtjahr 2025 (30.03.2026, vorläufig)",
+   "url": "https://www.smard.de/page/home/topic-article/444/219906/massnahmenvolumen-im-gesamtjahr-stabil",
+   "fundstelle": "„vorläufigen Gesamtkosten … 3.071 Mio. Euro“",
+   "anmerkung": "inkl. Reservekraftwerke 1.359 Mio. €",
+   "dec": 2
+  },
+  {
+   "id": "nem_ee_ausgleich",
+   "kennzahl": "Entschädigung für abgeregelte EE-Anlagen 2025",
+   "wert": 433,
+   "einheit": "Mio. €",
+   "stichtag": "2025",
+   "quelle": "Bundesnetzagentur | SMARD.de, Netzengpassmanagement Q4 und Gesamtjahr 2025 (30.03.2026, vorläufig)",
+   "url": "https://www.smard.de/page/home/topic-article/444/219906/massnahmenvolumen-im-gesamtjahr-stabil",
+   "fundstelle": "„betrug rund 433 Mio. Euro“",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "abreg_on_gwh",
+   "kennzahl": "Abgeregelte Windenergie an Land 2025",
+   "wert": 3.225,
+   "einheit": "TWh",
+   "stichtag": "2025",
+   "quelle": "Bundesnetzagentur | SMARD.de, Netzengpassmanagement Q4 und Gesamtjahr 2025 (30.03.2026, vorläufig)",
+   "url": "https://www.smard.de/page/home/topic-article/444/219906/massnahmenvolumen-im-gesamtjahr-stabil",
+   "fundstelle": "„Onshore-Windenergieanlagen lag bei 3.225 GWh“",
+   "anmerkung": "vorläufig",
+   "dec": 1
+  },
+  {
+   "id": "abreg_off_gwh",
+   "kennzahl": "Abgeregelte Windenergie auf See 2025",
+   "wert": 3.351,
+   "einheit": "TWh",
+   "stichtag": "2025",
+   "quelle": "Bundesnetzagentur | SMARD.de, Netzengpassmanagement Q4 und Gesamtjahr 2025 (30.03.2026, vorläufig)",
+   "url": "https://www.smard.de/page/home/topic-article/444/219906/massnahmenvolumen-im-gesamtjahr-stabil",
+   "fundstelle": "„Offshore-Windenergieanlagen betrug … 3.351 GWh“",
+   "anmerkung": "vorläufig",
+   "dec": 1
+  },
+  {
+   "id": "bzr_de5",
+   "kennzahl": "Wohlfahrtsgewinn einer Aufteilung in fünf Gebotszonen (ENTSO-E, Konfiguration DE5)",
+   "wert": 339,
+   "einheit": "Mio. €/Jahr",
+   "stichtag": "Zieljahr 2025",
+   "quelle": "ENTSO-E, Bidding Zone Review of the 2025 Target Year (28.04.2025)",
+   "url": "https://www.entsoe.eu/documents/nc/NC%20CACM/BZR/2025/Bidding_Zone_Review_of_the_2025_Target_Year.pdf",
+   "fundstelle": "S. 8, Tabelle 2: „DE5 … 339“",
+   "anmerkung": "laut Bericht weniger als 1 % der simulierten Systemkosten; Übergangskosten 1,3–2,4 Mrd. €",
+   "dec": null
+  },
+  {
+   "id": "bzr_regierung",
+   "kennzahl": "Position der Bundesregierung zur Gebotszone",
+   "wert": "einheitliche Zone bleibt",
+   "einheit": "",
+   "stichtag": "Dezember 2025",
+   "quelle": "Bundesministerium für Wirtschaft und Energie, Aktionsplan Gebotszone (15.12.2025)",
+   "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Publikationen/Energie/aktionsplan-gebotszone-2025.pdf?__blob=publicationFile&v=1",
+   "fundstelle": "S. 5: „hält an der bestehenden einheitlichen deutsch-luxemburgischen Gebotszone fest“",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "kolb_merit",
+   "kennzahl": "Merit-Order-Effekt von Wind und PV zusammen, 2014–2018",
+   "wert": null,
+   "einheit": "ct/kWh",
+   "stichtag": "2014–2018",
+   "quelle": "Kolb et al., Renewable and Sustainable Energy Reviews 134 (2020) 110307",
+   "url": "https://doi.org/10.1016/j.rser.2020.110307",
+   "fundstelle": "Abstract: „between 2.89 ct/kWh in 2014 to 8.89 ct/kWh in 2017“",
+   "anmerkung": "Spanne 2,89–8,89 ct/kWh; nur Abstract geprüft",
+   "dec": null
+  },
+  {
+   "id": "preis_bnetza_2025",
+   "kennzahl": "Durchschnittlicher Day-Ahead-Preis DE/LU 2025 (BNetzA)",
+   "wert": 89.32,
+   "einheit": "€/MWh",
+   "stichtag": "2025",
+   "quelle": "Bundesnetzagentur, Pressemitteilung vom 05.01.2026 (SMARD-Jahresauswertung)",
+   "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260105_Smard.html",
+   "fundstelle": "„lag im abgelaufenen Jahr bei 89,32 €/MWh“",
+   "anmerkung": "",
+   "dec": 2
+  },
+  {
+   "id": "ja25_on_mp",
+   "kennzahl": "Marktprämie Wind an Land 2025 (Jahresabrechnung)",
+   "wert": 1245.44,
+   "einheit": "Mio. €",
+   "stichtag": "2025",
+   "quelle": "Übertragungsnetzbetreiber, EEG-Jahresabrechnung 2025 (30.07.2026)",
+   "url": "https://www.netztransparenz.de/cdn/files/9abb3231-4e50-4b9f-29c9-08defc51206b/eeg-jahresabrechnung%202025.pdf",
+   "fundstelle": "S. 2 (Anlage 1b): 1.245.443.181,11 €",
+   "anmerkung": "für 87,5 TWh",
+   "dec": 0
+  },
+  {
+   "id": "ja25_on_ev",
+   "kennzahl": "Einspeisevergütung Wind an Land 2025 (Jahresabrechnung)",
+   "wert": 96.01,
+   "einheit": "Mio. €",
+   "stichtag": "2025",
+   "quelle": "Übertragungsnetzbetreiber, EEG-Jahresabrechnung 2025 (30.07.2026)",
+   "url": "https://www.netztransparenz.de/cdn/files/9abb3231-4e50-4b9f-29c9-08defc51206b/eeg-jahresabrechnung%202025.pdf",
+   "fundstelle": "S. 1 (Anlage 1a): 96.011.681,38 €",
+   "anmerkung": "inkl. Ausfallvergütung; für 1,07 TWh",
+   "dec": 0
+  },
+  {
+   "id": "ja25_off_mp",
+   "kennzahl": "Marktprämie Wind auf See 2025 (Jahresabrechnung)",
+   "wert": 1453.74,
+   "einheit": "Mio. €",
+   "stichtag": "2025",
+   "quelle": "Übertragungsnetzbetreiber, EEG-Jahresabrechnung 2025 (30.07.2026)",
+   "url": "https://www.netztransparenz.de/cdn/files/9abb3231-4e50-4b9f-29c9-08defc51206b/eeg-jahresabrechnung%202025.pdf",
+   "fundstelle": "S. 2 (Anlage 1b): 1.453.739.774,34 €",
+   "anmerkung": "Einspeisevergütung auf See: 0",
+   "dec": 0
+  },
+  {
+   "id": "ja24_wind_mrd",
+   "kennzahl": "EEG-Zahlungen an Windenergie 2024 (Marktprämie + Einspeisevergütung)",
+   "wert": 4.356,
+   "einheit": "Mrd. €",
+   "stichtag": "2024",
+   "quelle": "Übertragungsnetzbetreiber, EEG-Jahresabrechnung 2024 (15.07.2025)",
+   "url": "https://www.netztransparenz.de/cdn/files/485673e6-0085-4936-cdb1-08de8a5687c8/eeg-jahresabrechnung%202024.pdf",
+   "fundstelle": "S. 1–2: an Land 2.165,9 + 86,3 Mio. €, auf See 2.063,8 + 39,7 Mio. €",
+   "anmerkung": "eigene Addition",
+   "dec": 1
+  },
+  {
+   "id": "ja24_on_mio",
+   "kennzahl": "EEG-Zahlungen an Windanlagen an Land 2024",
+   "wert": 2252.2,
+   "einheit": "Mio. €",
+   "stichtag": "2024",
+   "quelle": "Übertragungsnetzbetreiber, EEG-Jahresabrechnung 2024 (15.07.2025)",
+   "url": "https://www.netztransparenz.de/cdn/files/485673e6-0085-4936-cdb1-08de8a5687c8/eeg-jahresabrechnung%202024.pdf",
+   "fundstelle": "S. 1–2: Marktprämie 2.165.854.395,72 € + Einspeisevergütung 86.311.188,30 €",
+   "anmerkung": "eigene Addition",
+   "dec": 0
+  },
+  {
+   "id": "mw_on_2025",
+   "kennzahl": "Jahresmarktwert Wind an Land 2025",
+   "wert": 7.441,
+   "einheit": "ct/kWh",
+   "stichtag": "2025",
+   "quelle": "Übertragungsnetzbetreiber, Marktwertübersicht (netztransparenz.de)",
+   "url": "https://www.netztransparenz.de/de-de/Erneuerbare-Energien-und-Umlagen/EEG/Transparenzanforderungen/Marktpr%C3%A4mie/Marktwert%C3%BCbersicht",
+   "fundstelle": "Jahresmarktwerte: „JW Wind an Land; 7,441“",
+   "anmerkung": "2024: 6,293 ct/kWh",
+   "dec": 2
+  },
+  {
+   "id": "mw_off_2025",
+   "kennzahl": "Jahresmarktwert Wind auf See 2025",
+   "wert": 8.059,
+   "einheit": "ct/kWh",
+   "stichtag": "2025",
+   "quelle": "Übertragungsnetzbetreiber, Marktwertübersicht (netztransparenz.de)",
+   "url": "https://www.netztransparenz.de/de-de/Erneuerbare-Energien-und-Umlagen/EEG/Transparenzanforderungen/Marktpr%C3%A4mie/Marktwert%C3%BCbersicht",
+   "fundstelle": "Jahresmarktwerte: „JW Wind auf See; 8,059“",
+   "anmerkung": "",
+   "dec": 2
+  },
+  {
+   "id": "fb26_gesamt",
+   "kennzahl": "Prognose EEG-Finanzierungsbedarf 2026 (alle Technologien)",
+   "wert": 14.57,
+   "einheit": "Mrd. €",
+   "stichtag": "2026 (Prognose, 24.10.2025)",
+   "quelle": "Übertragungsnetzbetreiber, Veröffentlichung EEG-Finanzierungsbedarf 2026",
+   "url": "https://www.netztransparenz.de/xspproxy/api/staticfiles/ntp-relaunch/dokumente/erneuerbare%20energien%20und%20umlagen/eeg/eeg%20finanzierung/eeg-finanzierungsbedarf/20251024%20ver%C3%B6ffentlichung%20eeg-finanzierungsbedarf%202026.pdf",
+   "fundstelle": "Folie 13: 14.566.680.395,35 €",
+   "anmerkung": "",
+   "dec": 1
+  },
+  {
+   "id": "fb26_on",
+   "kennzahl": "Prognose Finanzierungsbedarf 2026 für Wind an Land (Vergütung minus Vermarktungserlös)",
+   "wert": 645,
+   "einheit": "Mio. €",
+   "stichtag": "2026 (Prognose)",
+   "quelle": "Übertragungsnetzbetreiber, Veröffentlichung EEG-Finanzierungsbedarf 2026",
+   "url": "https://www.netztransparenz.de/xspproxy/api/staticfiles/ntp-relaunch/dokumente/erneuerbare%20energien%20und%20umlagen/eeg/eeg%20finanzierung/eeg-finanzierungsbedarf/20251024%20ver%C3%B6ffentlichung%20eeg-finanzierungsbedarf%202026.pdf",
+   "fundstelle": "Folie 14 (Grafik), Folie 10: Auszahlungen 726.637.269 €",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "fb26_off",
+   "kennzahl": "Prognose Finanzierungsbedarf 2026 für Wind auf See",
+   "wert": 1731,
+   "einheit": "Mio. €",
+   "stichtag": "2026 (Prognose)",
+   "quelle": "Übertragungsnetzbetreiber, Veröffentlichung EEG-Finanzierungsbedarf 2026",
+   "url": "https://www.netztransparenz.de/xspproxy/api/staticfiles/ntp-relaunch/dokumente/erneuerbare%20energien%20und%20umlagen/eeg/eeg%20finanzierung/eeg-finanzierungsbedarf/20251024%20ver%C3%B6ffentlichung%20eeg-finanzierungsbedarf%202026.pdf",
+   "fundstelle": "Folie 14, Folie 10: 1.731.306.783 €",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "konto_bund_2025",
+   "kennzahl": "Zahlungen des Bundes auf das EEG-Konto 2025 (alle Technologien)",
+   "wert": 16.49,
+   "einheit": "Mrd. €",
+   "stichtag": "2025",
+   "quelle": "Übertragungsnetzbetreiber, Einnahmen- und Ausgabenpositionen EEG-Konto (Dezember 2025)",
+   "url": "https://www.netztransparenz.de/cdn/files/a8bfef12-df90-47bd-d485-08dea9a89783/aktuelle_daten_zu_den_einnahmen-_und_ausgabenpositionen_nach_enfg_ivm_%20eeg_dezember_2025.pdf",
+   "fundstelle": "S. 1, Besondere Einnahmen Nr. 2: 16.487.839.456,95 €",
+   "anmerkung": "Kassenwerte; nicht 1:1 mit der Jahresabrechnung vergleichbar",
+   "dec": 1
+  },
+  {
+   "id": "kommunal_2025",
+   "kennzahl": "Kommunalbeteiligung Wind an Land 2025 (§ 6 EEG)",
+   "wert": 33.2,
+   "einheit": "Mio. €",
+   "stichtag": "2025",
+   "quelle": "Übertragungsnetzbetreiber, EEG-Jahresabrechnung 2025 (30.07.2026)",
+   "url": "https://www.netztransparenz.de/cdn/files/9abb3231-4e50-4b9f-29c9-08defc51206b/eeg-jahresabrechnung%202025.pdf",
+   "fundstelle": "S. 4 (Anlage 1d): 33.229.239,70 €",
+   "anmerkung": "nicht in den Förderzahlungen enthalten",
+   "dec": 1
+  },
+  {
+   "id": "neg_std_2025",
+   "kennzahl": "Stunden mit negativem Day-Ahead-Preis 2025 (BNetzA)",
+   "wert": 573,
+   "einheit": "h",
+   "stichtag": "2025",
+   "quelle": "Bundesnetzagentur, Pressemitteilung vom 05.01.2026",
+   "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260105_Smard.html",
+   "fundstelle": "„Negative Großhandelspreise traten in 573 von 8.760 Stunden auf.“",
+   "anmerkung": "für neuere Anlagen entfällt in diesen Zeiträumen die Marktprämie (§ 51 EEG 2023)",
+   "dec": null
+  },
+  {
+   "id": "ise_lcoe_on",
+   "kennzahl": "LCOE Wind an Land, Neuanlagen 2024 (Fraunhofer ISE)",
+   "wert": "4,3–9,2",
+   "einheit": "ct/kWh",
+   "stichtag": "2024, real",
+   "quelle": "Fraunhofer ISE, Stromgestehungskosten Erneuerbare Energien (Juli 2024)",
+   "url": "https://www.ise.fraunhofer.de/content/dam/ise/de/documents/publications/studies/DE2024_ISE_Studie_Stromgestehungskosten_Erneuerbare_Energien.pdf",
+   "fundstelle": "Zusammenfassung S. 2 f.; Parameter Tab. 1–3",
+   "anmerkung": "CAPEX 1.300–1.900 €/kW; 1.800–3.200 Volllaststunden; WACC real 3,9 %; 25 Jahre",
+   "dec": null
+  },
+  {
+   "id": "ise_lcoe_off",
+   "kennzahl": "LCOE Wind auf See, Neuanlagen 2024 (Fraunhofer ISE)",
+   "wert": "5,5–10,3",
+   "einheit": "ct/kWh",
+   "stichtag": "2024, real",
+   "quelle": "Fraunhofer ISE, Stromgestehungskosten Erneuerbare Energien (Juli 2024)",
+   "url": "https://www.ise.fraunhofer.de/content/dam/ise/de/documents/publications/studies/DE2024_ISE_Studie_Stromgestehungskosten_Erneuerbare_Energien.pdf",
+   "fundstelle": "Zusammenfassung; Tab. 1–3",
+   "anmerkung": "CAPEX 2.200–3.400 €/kW inkl. Netzanbindung; 3.200–4.500 h; WACC real 6,0 %; 25 Jahre",
+   "dec": null
+  },
+  {
+   "id": "ise_lcoe_kkw",
+   "kennzahl": "LCOE neues Kernkraftwerk 2024 (Fraunhofer ISE)",
+   "wert": "13,6–49,0",
+   "einheit": "ct/kWh",
+   "stichtag": "2024, real",
+   "quelle": "Fraunhofer ISE, Stromgestehungskosten Erneuerbare Energien (Juli 2024)",
+   "url": "https://www.ise.fraunhofer.de/content/dam/ise/de/documents/publications/studies/DE2024_ISE_Studie_Stromgestehungskosten_Erneuerbare_Energien.pdf",
+   "fundstelle": "Zusammenfassung; Tab. 1, 2, 4, 5",
+   "anmerkung": "CAPEX 6.000–16.000 €/kW; WACC real 7,8 %; 45 Jahre; Volllaststunden 4.300–6.300 h (2024), sinkend auf 2.000–5.000 h (2035) und 2.000–4.000 h (2045)",
+   "dec": null
+  },
+  {
+   "id": "ise_lcoe_pv",
+   "kennzahl": "LCOE PV-Freifläche 2024 (Fraunhofer ISE)",
+   "wert": "4,1–6,9",
+   "einheit": "ct/kWh",
+   "stichtag": "2024, real",
+   "quelle": "Fraunhofer ISE, Stromgestehungskosten Erneuerbare Energien (Juli 2024)",
+   "url": "https://www.ise.fraunhofer.de/content/dam/ise/de/documents/publications/studies/DE2024_ISE_Studie_Stromgestehungskosten_Erneuerbare_Energien.pdf",
+   "fundstelle": "S. 18: Süd 4,1–5,0, Nord 5,7–6,9",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "ise_lcoe_gud",
+   "kennzahl": "LCOE GuD-Kraftwerk (Erdgas) 2024 (Fraunhofer ISE)",
+   "wert": "10,9–18,1",
+   "einheit": "ct/kWh",
+   "stichtag": "2024, real",
+   "quelle": "Fraunhofer ISE, Stromgestehungskosten Erneuerbare Energien (Juli 2024)",
+   "url": "https://www.ise.fraunhofer.de/content/dam/ise/de/documents/publications/studies/DE2024_ISE_Studie_Stromgestehungskosten_Erneuerbare_Energien.pdf",
+   "fundstelle": "S. 27; Tab. 2, 4, 5",
+   "anmerkung": "CO₂-Preis 2024: 75–90 €/t; Erdgas 38 €/MWh",
+   "dec": null
+  },
+  {
+   "id": "ise_param_kkw_vlh",
+   "kennzahl": "Volllaststunden-Annahme Kernkraft bei ISE, 2024 / 2035 / 2045",
+   "wert": "4.300–6.300 / 2.000–5.000 / 2.000–4.000",
+   "einheit": "h",
+   "stichtag": "2024–2045",
+   "quelle": "Fraunhofer ISE, Stromgestehungskosten Erneuerbare Energien (Juli 2024)",
+   "url": "https://www.ise.fraunhofer.de/content/dam/ise/de/documents/publications/studies/DE2024_ISE_Studie_Stromgestehungskosten_Erneuerbare_Energien.pdf",
+   "fundstelle": "S. 16, Tabelle 4 („Systempfad Klimaneutralität“)",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "ise_param_ohne_system",
+   "kennzahl": "Systemkosten in den ISE-LCOE",
+   "wert": "nicht enthalten",
+   "einheit": "",
+   "stichtag": "2024",
+   "quelle": "Fraunhofer ISE, Stromgestehungskosten Erneuerbare Energien (Juli 2024)",
+   "url": "https://www.ise.fraunhofer.de/content/dam/ise/de/documents/publications/studies/DE2024_ISE_Studie_Stromgestehungskosten_Erneuerbare_Energien.pdf",
+   "fundstelle": "S. 16: keine zusätzlichen Kosten für Backup-Kraftwerke, Abregelung oder Netzausbau",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "nea12_sys_on30",
+   "kennzahl": "Systemkosten Wind an Land, Deutschland, 30 % Anteil",
+   "wert": 43.85,
+   "einheit": "USD/MWh",
+   "stichtag": "NEA 2012",
+   "quelle": "OECD-NEA (2012), Nuclear Energy and Renewables: System Effects in Low-carbon Electricity Systems (NEA No. 7056)",
+   "url": "https://www.oecd-nea.org/upload/docs/application/pdf/2019-12/7056-system-effects.pdf",
+   "fundstelle": "Tab. ES.2, S. 18 (Deutschland): Backup 8,84 + Balancing 6,41 + Anschluss 6,37 + Netzausbau 22,23",
+   "anmerkung": "7 % real; bei 10 % Anteil 19,36 USD/MWh; Wechselkurs laut S. 150: 1,30 USD/EUR",
+   "dec": 2
+  },
+  {
+   "id": "nea12_sys_off30",
+   "kennzahl": "Systemkosten Wind auf See, Deutschland, 30 % Anteil",
+   "wert": 42.85,
+   "einheit": "USD/MWh",
+   "stichtag": "NEA 2012",
+   "quelle": "OECD-NEA (2012), Nuclear Energy and Renewables: System Effects in Low-carbon Electricity Systems (NEA No. 7056)",
+   "url": "https://www.oecd-nea.org/upload/docs/application/pdf/2019-12/7056-system-effects.pdf",
+   "fundstelle": "Tab. ES.2, S. 18 (Deutschland)",
+   "anmerkung": "bei 10 % Anteil 27,90 USD/MWh",
+   "dec": 2
+  },
+  {
+   "id": "nea12_sys_kkw30",
+   "kennzahl": "Systemkosten Kernkraft, Deutschland, 30 % Anteil",
+   "wert": 2.25,
+   "einheit": "USD/MWh",
+   "stichtag": "NEA 2012",
+   "quelle": "OECD-NEA (2012), Nuclear Energy and Renewables: System Effects in Low-carbon Electricity Systems (NEA No. 7056)",
+   "url": "https://www.oecd-nea.org/upload/docs/application/pdf/2019-12/7056-system-effects.pdf",
+   "fundstelle": "Tab. ES.2, S. 18 (Deutschland)",
+   "anmerkung": "bei 10 % Anteil 2,42 USD/MWh",
+   "dec": 2
+  },
+  {
+   "id": "nea12_kurs",
+   "kennzahl": "Wechselkurs der NEA-Systemkosten",
+   "wert": 1.3,
+   "einheit": "USD/EUR",
+   "stichtag": "NEA 2012",
+   "quelle": "OECD-NEA (2012), Nuclear Energy and Renewables: System Effects in Low-carbon Electricity Systems (NEA No. 7056)",
+   "url": "https://www.oecd-nea.org/upload/docs/application/pdf/2019-12/7056-system-effects.pdf",
+   "fundstelle": "S. 150: „The assumed exchange rates are USD 1.30/EUR“",
+   "anmerkung": "Preisbasis im Bericht nicht angegeben; Kostendaten aus Projected Costs 2010; nicht inflationsbereinigt",
+   "dec": 2
+  },
+  {
+   "id": "nea12_lk_kkw",
+   "kennzahl": "Leistungskredit Kernkraft, Deutschland",
+   "wert": 97,
+   "einheit": "%",
+   "stichtag": "NEA 2012",
+   "quelle": "OECD-NEA (2012), Nuclear Energy and Renewables: System Effects in Low-carbon Electricity Systems (NEA No. 7056)",
+   "url": "https://www.oecd-nea.org/upload/docs/application/pdf/2019-12/7056-system-effects.pdf",
+   "fundstelle": "Tab. 4.3A, S. 146 (Deutschland)",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "nea12_lk_on",
+   "kennzahl": "Leistungskredit Wind an Land, Deutschland, bei 10 % / 30 % Anteil",
+   "wert": "8 / 6",
+   "einheit": "%",
+   "stichtag": "NEA 2012",
+   "quelle": "OECD-NEA (2012), Nuclear Energy and Renewables: System Effects in Low-carbon Electricity Systems (NEA No. 7056)",
+   "url": "https://www.oecd-nea.org/upload/docs/application/pdf/2019-12/7056-system-effects.pdf",
+   "fundstelle": "Tab. 4.3A, S. 146 (Deutschland)",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "nea12_lk_off",
+   "kennzahl": "Leistungskredit Wind auf See, Deutschland, bei 10 % / 30 % Anteil",
+   "wert": "15 / 11,2",
+   "einheit": "%",
+   "stichtag": "NEA 2012",
+   "quelle": "OECD-NEA (2012), Nuclear Energy and Renewables: System Effects in Low-carbon Electricity Systems (NEA No. 7056)",
+   "url": "https://www.oecd-nea.org/upload/docs/application/pdf/2019-12/7056-system-effects.pdf",
+   "fundstelle": "Tab. 4.3A, S. 146 (Deutschland)",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "nea19_sys",
+   "kennzahl": "Systemkosten je MWh Wind/PV bei 30 % / 50 % Anteil (Modellsystem)",
+   "wert": "17,5 / 28–30",
+   "einheit": "USD/MWh",
+   "stichtag": "NEA 2019",
+   "quelle": "OECD-NEA (2019), The Costs of Decarbonisation: System Costs with High Shares of Nuclear and Renewables (NEA No. 7299)",
+   "url": "https://www.oecd-nea.org/upload/docs/application/pdf/2019-12/7299-system-costs.pdf",
+   "fundstelle": "S. 121 f.; Zusammenfassung S. 19 f.",
+   "anmerkung": "Bezug: Referenzsystem mit rund 75 % Kernkraft; Bericht nennt für 50 % teils 28, teils 30",
+   "dec": null
+  },
+  {
+   "id": "uenb_wind_gesichert",
+   "kennzahl": "In der ÜNB-Leistungsbilanz als gesichert angesetzte Windleistung",
+   "wert": 1,
+   "einheit": "%",
+   "stichtag": "2020",
+   "quelle": "50Hertz, Amprion, TenneT, TransnetBW: Bericht der deutschen Übertragungsnetzbetreiber zur Leistungsbilanz 2018–2022 (Stand 18.02.2020)",
+   "url": "https://www.amprion.net/Dokumente/Netzkennzahlen/Leistungsbilanz/Bericht-zur-Leistungsbilanz/Bericht_zur_Leistungsbilanz_2019.pdf",
+   "fundstelle": "Abschnitt 3.2.6: „Daher setzen die ÜNB für die Windeinspeisung eine Nichtverfügbarkeit von 99 % an.“",
+   "anmerkung": "Bezug: Jahreshöchstlast; Kernenergie ohne pauschalen Abschlag",
+   "dec": null
+  },
+  {
+   "id": "iaea_isar2_mw",
+   "kennzahl": "Isar 2, Nettoleistung",
+   "wert": 1410,
+   "einheit": "MW",
+   "stichtag": "–",
+   "quelle": "IAEA, Operating Experience with Nuclear Power Stations in Member States, 2024 Edition",
+   "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/OPEX_2024_web.pdf",
+   "fundstelle": "PDF S. 586: „Reference unit power (net) : 1410 MWe“",
+   "anmerkung": "",
+   "dec": null
+  },
+  {
+   "id": "iaea_isar2_gwh",
+   "kennzahl": "Isar 2, Nettoerzeugung 2021",
+   "wert": 11421.16,
+   "einheit": "GWh",
+   "stichtag": "2021",
+   "quelle": "IAEA, Operating Experience with Nuclear Power Stations in Member States, 2024 Edition",
+   "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/OPEX_2024_web.pdf",
+   "fundstelle": "PDF S. 587, Zeile 2021: 11421.16",
+   "anmerkung": "Lastfaktor 92,47 %; ≈ 8.100 Volllaststunden (eigene Rechnung)",
+   "dec": 0
+  },
+  {
+   "id": "iaea_isar2_lf",
+   "kennzahl": "Isar 2, Lastfaktor 2021",
+   "wert": 92.47,
+   "einheit": "%",
+   "stichtag": "2021",
+   "quelle": "IAEA, Operating Experience with Nuclear Power Stations in Member States, 2024 Edition",
+   "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/OPEX_2024_web.pdf",
+   "fundstelle": "PDF S. 587",
+   "anmerkung": "Emsland 92,17 %, Neckarwestheim 2 91,14 % (2021)",
+   "dec": 1
+  },
+  {
+   "id": "bdew_kkw_vlh",
+   "kennzahl": "Volllaststunden der deutschen Kernkraftwerke 2021",
+   "wert": 8070,
+   "einheit": "h",
+   "stichtag": "2021 (vorläufig)",
+   "quelle": "BDEW, Jahresvolllaststunden 2020/2021 (09.06.2022)",
+   "url": "https://www.bdew.de/media/documents/Jahresvolllaststunden_2020_2021_o_online_jaehrlich_Ba_09062022_usfddti.pdf",
+   "fundstelle": "S. 1: Kernenergie 8.070 h",
+   "anmerkung": "2020: 7.510 h",
+   "dec": null
+  },
+  {
+   "id": "hpc_kosten",
+   "kennzahl": "Hinkley Point C, geschätzte Fertigstellungskosten",
+   "wert": 35,
+   "einheit": "Mrd. £ (Preise 2015)",
+   "stichtag": "EDF, 20.02.2026",
+   "quelle": "EDF, 2025 Annual results (20.02.2026)",
+   "url": "https://www.edf.fr/en/2025-annual-results",
+   "fundstelle": "Pressemitteilung: „completion cost estimated at £35 bn (in 2015 sterling)“",
+   "anmerkung": "entspricht laut EDF 48 Mrd. £ in heutigen Preisen; rund 3,3 GW; Block 1 ab 2030",
+   "dec": null
+  },
+  {
+   "id": "hpc_strike",
+   "kennzahl": "Hinkley Point C, garantierter Abnahmepreis (CfD), indexiert",
+   "wert": 130.79,
+   "einheit": "£/MWh",
+   "stichtag": "Stand 01.04.2026",
+   "quelle": "Low Carbon Contracts Company, CfD-Register (NUC-HPC-198)",
+   "url": "https://register.lowcarboncontracts.uk/",
+   "fundstelle": "Eintrag NUC-HPC-198: initial_strike_price 89.50 (Basis 2012), current_strike_price 130.79",
+   "anmerkung": "35 Jahre Laufzeit, an Verbraucherpreise gekoppelt",
+   "dec": 2
+  },
+  {
+   "id": "fla_preis",
+   "kennzahl": "Flamanville 3: nötiger Verkaufspreis für 4 % / 7 % Rendite (Cour des comptes)",
+   "wert": "122 / 176",
+   "einheit": "€/MWh (Preise 2023)",
+   "stichtag": "Januar 2025",
+   "quelle": "Cour des comptes, La filière EPR : une dynamique nouvelle, des risques persistants (Jan. 2025)",
+   "url": "https://www.ccomptes.fr/sites/default/files/2025-01/20250114-La-filiere-EPR%20-une-dynamique-nouvelle-des-risques-persistants.pdf",
+   "fundstelle": "S. 29",
+   "anmerkung": "Lastfaktor 85 %; Gesamtkosten 23,7 Mrd. € (Preise 2023) inkl. Bauzeitzinsen",
+   "dec": null
+  },
+  {
+   "id": "uenb_zuschuss_2026",
+   "kennzahl": "Bundeszuschuss zu den Übertragungsnetzkosten 2026",
+   "wert": 6.5,
+   "einheit": "Mrd. €",
+   "stichtag": "2026",
+   "quelle": "Deutscher Bundestag, Drucksache 21/2754 (Beschlussempfehlung, 12.11.2025)",
+   "url": "https://dserver.bundestag.de/btd/21/027/2102754.pdf",
+   "fundstelle": "S. 1: „Zuschuss in Höhe von 6,5 Milliarden Euro“",
+   "anmerkung": "nach § 24c EnWG",
+   "dec": 1
+  }
+ ],
+ "laender": {
+  "Baden-Württemberg": {
+   "zuschlag25_mw": 345.3,
+   "netzentgelt": 11.71
+  },
+  "Bayern": {
+   "zuschlag25_mw": 718.9,
+   "netzentgelt": 9.74
+  },
+  "Berlin": {
+   "zuschlag25_mw": 0.0,
+   "netzentgelt": 10.87
+  },
+  "Brandenburg": {
+   "zuschlag25_mw": 1447.8,
+   "netzentgelt": 10.28
+  },
+  "Bremen": {
+   "zuschlag25_mw": 0.0,
+   "netzentgelt": 7.96
+  },
+  "Hamburg": {
+   "zuschlag25_mw": 8.4,
+   "netzentgelt": 14.17
+  },
+  "Hessen": {
+   "zuschlag25_mw": 793.3,
+   "netzentgelt": 10.77
+  },
+  "Mecklenburg-Vorpommern": {
+   "zuschlag25_mw": 854.6,
+   "netzentgelt": 9.31
+  },
+  "Niedersachsen": {
+   "zuschlag25_mw": 3325.7,
+   "netzentgelt": 9.82
+  },
+  "Nordrhein-Westfalen": {
+   "zuschlag25_mw": 4178.5,
+   "netzentgelt": 11.19
+  },
+  "Rheinland-Pfalz": {
+   "zuschlag25_mw": 592.0,
+   "netzentgelt": 11.7
+  },
+  "Saarland": {
+   "zuschlag25_mw": 57.2,
+   "netzentgelt": 11.21
+  },
+  "Sachsen": {
+   "zuschlag25_mw": 90.2,
+   "netzentgelt": 9.71
+  },
+  "Sachsen-Anhalt": {
+   "zuschlag25_mw": 606.5,
+   "netzentgelt": 10.27
+  },
+  "Schleswig-Holstein": {
+   "zuschlag25_mw": 893.0,
+   "netzentgelt": 10.58
+  },
+  "Thüringen": {
+   "zuschlag25_mw": 533.8,
+   "netzentgelt": 9.69
+  }
+ },
+ "chart": {
+  "runden": [
+   {
+    "termin": "02/2025",
+    "menge_mw": 4094.16,
+    "wert_ct": 7.0,
+    "hoechst_ct": 7.35,
+    "gebote_mw": 4896.12
+   },
+   {
+    "termin": "05/2025",
+    "menge_mw": 3446.78,
+    "wert_ct": 6.83,
+    "hoechst_ct": 7.35,
+    "gebote_mw": 4971.75
+   },
+   {
+    "termin": "08/2025",
+    "menge_mw": 3447.956,
+    "wert_ct": 6.57,
+    "hoechst_ct": 7.35,
+    "gebote_mw": 5738.515
+   },
+   {
+    "termin": "11/2025",
+    "menge_mw": 3456.334,
+    "wert_ct": 6.06,
+    "hoechst_ct": 7.35,
+    "gebote_mw": 8155.38
+   },
+   {
+    "termin": "02/2026",
+    "menge_mw": 3445.52,
+    "wert_ct": 5.54,
+    "hoechst_ct": 7.25,
+    "gebote_mw": 7858.268
+   },
+   {
+    "termin": "05/2026",
+    "menge_mw": 2499.468,
+    "wert_ct": 5.06,
+    "hoechst_ct": 7.25,
+    "gebote_mw": 6409.054
+   },
+   {
+    "termin": "08/2026",
+    "menge_mw": 2523.346,
+    "wert_ct": 4.79,
+    "hoechst_ct": 7.25,
+    "gebote_mw": 5249.551
+   }
+  ],
+  "lcoe": {
+   "ise": [
+    {
+     "tech": "PV-Freifläche",
+     "lo": 4.1,
+     "hi": 6.9,
+     "c": "pv"
+    },
+    {
+     "tech": "Wind an Land",
+     "lo": 4.3,
+     "hi": 9.2,
+     "c": "on"
+    },
+    {
+     "tech": "Wind auf See",
+     "lo": 5.5,
+     "hi": 10.3,
+     "c": "off"
+    },
+    {
+     "tech": "GuD (Erdgas)",
+     "lo": 10.9,
+     "hi": 18.1,
+     "c": "neutral"
+    },
+    {
+     "tech": "Kernkraft (neu)",
+     "lo": 13.6,
+     "hi": 49.0,
+     "c": "nuc"
+    }
+   ],
+   "param": {
+    "on": {
+     "capex": [
+      1300,
+      1900
+     ],
+     "fix": 32,
+     "var": 0.007,
+     "life": 25,
+     "wacc": 3.9,
+     "vlh": [
+      1800,
+      3200
+     ]
+    },
+    "off": {
+     "capex": [
+      2200,
+      3400
+     ],
+     "fix": 39,
+     "var": 0.008,
+     "life": 25,
+     "wacc": 6.0,
+     "vlh": [
+      3200,
+      4500
+     ]
+    },
+    "kkw": {
+     "capex": [
+      6000,
+      16000
+     ],
+     "fix": 100,
+     "var": 0.007,
+     "life": 45,
+     "wacc": 7.8,
+     "vlh": [
+      4300,
+      6300
+     ],
+     "fuel": 8.0,
+     "eta": 0.35
+    }
+   },
+   "system": {
+    "kurs": 1.3,
+    "p10": {
+     "on": 19.36,
+     "off": 27.9,
+     "kkw": 2.42
+    },
+    "p30": {
+     "on": 43.85,
+     "off": 42.85,
+     "kkw": 2.25
+    }
+   }
+  }
+ }
+}
